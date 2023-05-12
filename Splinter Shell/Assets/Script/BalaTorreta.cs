@@ -47,15 +47,13 @@ public class BalaTorreta : MonoBehaviour
         {
             NucleoController nucleo = collision.gameObject.GetComponent<NucleoController>();
             nucleo.RecibirDano(1);
-           
+
+            // Destruir la bala después de que el núcleo haya recibido el daño
             Destroy(gameObject);
         }
     }
 
-    void DestruirTorreta()
-    {
-        Destroy(gameObject);
-    }
+   
 }
 
 

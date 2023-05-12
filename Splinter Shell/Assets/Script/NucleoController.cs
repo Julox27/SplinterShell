@@ -6,6 +6,7 @@ public class NucleoController : MonoBehaviour
 {
     public int vidaInicial = 1;
     public int vidaActual;
+    public Torreta torreta;
     void Start()
     {
         vidaActual = vidaInicial;
@@ -20,7 +21,7 @@ public class NucleoController : MonoBehaviour
     }
     void DestruirNucleo()
     {
-        Torreta torreta = GameObject.Find("Torreta").GetComponent<Torreta>();
+        
         torreta.NucleoDestruido();
         Destroy(gameObject);
     }

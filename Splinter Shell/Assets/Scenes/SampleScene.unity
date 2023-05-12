@@ -6447,7 +6447,7 @@ MonoBehaviour:
   shootTimer: 1
   bulletShooter: {fileID: 91040345}
   nucleosMaximos: 3
-  nucleosRestantes: 0
+  nucleosRestantes: 3
 --- !u!1001 &350488628
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25063,19 +25063,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5686126799726279829, guid: 85a9f808c62277947833c4cd3e559bb8, type: 3}
   m_PrefabInstance: {fileID: 1155078595}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &1260341261
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1260341257}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 4.9656744, y: 6.3145266, z: 4.663453}
-  m_Center: {x: 0, y: 0.00000059604645, z: 6.0378575}
 --- !u!54 &1260341262
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -25104,8 +25091,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1aa61c9e342922244afef01b333f44a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidaInicial: 3
+  vidaInicial: 1
   vidaActual: 0
+  torreta: {fileID: 347607361}
 --- !u!1001 &1261577171
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30179,8 +30167,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1aa61c9e342922244afef01b333f44a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidaInicial: 3
+  vidaInicial: 1
   vidaActual: 0
+  torreta: {fileID: 347607361}
 --- !u!1001 &1527850123
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39660,19 +39649,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5686126799726279829, guid: 85a9f808c62277947833c4cd3e559bb8, type: 3}
   m_PrefabInstance: {fileID: 251852252}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &2007618645
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2007618641}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 4.9656744, y: 6.3145266, z: 4.663453}
-  m_Center: {x: 0, y: 0.00000059604645, z: 6.0378575}
 --- !u!54 &2007618646
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -39701,8 +39677,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1aa61c9e342922244afef01b333f44a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidaInicial: 3
+  vidaInicial: 1
   vidaActual: 0
+  torreta: {fileID: 347607361}
 --- !u!1001 &2008593843
 PrefabInstance:
   m_ObjectHideFlags: 0
