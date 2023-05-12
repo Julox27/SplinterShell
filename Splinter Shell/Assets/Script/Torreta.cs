@@ -6,8 +6,16 @@ public class Torreta : MonoBehaviour
 {
     [SerializeField] private float shootTimer = 1;
     public Transform bulletShooter;
+    public int nucleosMaximos = 3;
+    public int nucleosRestantes;
 
-    void Update()
+    void Start()
+    {
+        nucleosRestantes = nucleosMaximos;
+    }
+    
+
+        void Update()
     {
         if(GameManager.instance.Deslizandose)
         {
@@ -22,7 +30,7 @@ public class Torreta : MonoBehaviour
         if(shootTimer <= 0)
         {
             Shoot();
-            shootTimer = 3;
+            shootTimer = 1;
         }
     }
 
@@ -30,4 +38,20 @@ public class Torreta : MonoBehaviour
     {
         Instantiate(PrefabManager.instance.BalaTorreta, bulletShooter.position, bulletShooter.rotation);
     }
+    
+    public void NucleoDestruido()
+    {
+        nucleosRestantes--;
+        if (nucleosRestantes <= 0)
+        {
+            DestruirTorreta();
+        }
+    }
+
+    public void DestruirTorreta()
+    {
+        Destroy(gameObject);
+    }
+
+
 }
