@@ -24,7 +24,7 @@ public class GameManager : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.R) || vidaPlayer <= 0)
         {
-            SceneManager.LoadScene(0);
+            ResetLevel();
             vidaPlayer = 3;
         }
         if(Input.GetKeyDown(KeyCode.Escape))
@@ -36,15 +36,22 @@ public class GameManager : MonoBehaviour
     public void StopSlide()
     {
         EsperarDosSegundos();
+        Deslizandose = false;
+        player.transform.position = inWorldCaparazon.transform.position + new Vector3(0, 1, 0);
+        Destroy(inWorldCaparazon.gameObject);
+        player.yaLanzoProyectil = false;
         player.meshR.enabled = true;
         player.capColl.enabled = true;
-       player.rb.WakeUp();
-
-        
+        player.rb.WakeUp();
     }
     IEnumerator EsperarDosSegundos()
     {
         yield return new WaitForSeconds(4f);
        
+    }
+
+    public void ResetLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

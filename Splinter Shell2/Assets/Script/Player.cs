@@ -38,10 +38,17 @@ public class Player : MonoBehaviour
                 rb.Sleep();
             }
         }
-        else if(Input.GetKeyDown(KeyCode.E) && GameManager.instance.Deslizandose == false)
+        else if(Input.GetKeyDown(KeyCode.E))
         {
-            Destroy(GameManager.instance.inWorldCaparazon.gameObject);
-            yaLanzoProyectil = false;
+            if(GameManager.instance.Deslizandose == false)
+            {
+                Destroy(GameManager.instance.inWorldCaparazon.gameObject);
+                yaLanzoProyectil = false;
+            }
+            else
+            {
+                GameManager.instance.StopSlide();
+            }
         }
 
 

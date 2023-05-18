@@ -13,7 +13,7 @@ public class Caparazon : MonoBehaviour
 
     void Start()
     {
-        slideTimer = 8;
+        slideTimer = 3;
         rb = GetComponent<Rigidbody>();
         direccion = transform.forward;
     }
@@ -30,10 +30,6 @@ public class Caparazon : MonoBehaviour
             if(slideTimer <= 0)
             {
                 GameManager.instance.StopSlide();
-                GameManager.instance.player.transform.position = gameObject.transform.position + new Vector3(0,5,0);
-                GameManager.instance.Deslizandose = false;
-                GameManager.instance.player.yaLanzoProyectil = false;
-                Destroy(this.gameObject);
             }
         }
         Movement();
