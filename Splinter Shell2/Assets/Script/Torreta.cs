@@ -8,10 +8,12 @@ public class Torreta : MonoBehaviour
     public Transform bulletShooter;
     public int nucleosMaximos = 3;
     public int nucleosRestantes;
-
+    public float distanciaDisparo = 10f;
+    private GameObject player;
     void Start()
     {
         nucleosRestantes = nucleosMaximos;
+        player = GameObject.FindWithTag("Player");
     }
     
 
@@ -26,13 +28,19 @@ public class Torreta : MonoBehaviour
             transform.rotation = Quaternion.LookRotation(GameManager.instance.player.transform.position - gameObject.transform.position);
         }
         shootTimer -= Time.deltaTime;
-
-        if(shootTimer <= 0)
+        float distanciaAlJugador = Vector3.Distance(transform.position, player.transform.position);
+        if (distanciaAlJugador <= distanciaDisparo)
         {
-            Shoot();
-            shootTimer = 1;
+            shootTimer -= Time.deltaTime;
+
+            if (shootTimer <= 0)
+            {
+                Shoot();
+                shootTimer = 1f;
+            }
         }
-    }
+
+        }
 
     private void Shoot()
     {

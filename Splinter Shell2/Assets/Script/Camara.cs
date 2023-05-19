@@ -91,7 +91,7 @@ public class Camara : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(objetivo.position, -direccion, out hit, distanciaColision)) // Si la cámara estEcolisionando con un objeto en su dirección de movimiento
         {
-            // Ajustar la posición de la cámara para que estEjusto en frente del objeto detectado
+            // Ajustar la posición de la cámara para que este justo en frente del objeto detectado
             transform.position = hit.point + hit.normal * 0.1f; // Se mueve la cámara hacia el punto de colisión más la normal multiplicada por una pequeña fracción, para evitar atravesar el objeto
         }
         else // Si no hay colisión
