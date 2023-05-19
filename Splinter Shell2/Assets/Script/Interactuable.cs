@@ -4,7 +4,7 @@ using UnityEngine;
 
 public abstract class Interactuable : MonoBehaviour
 {
-    protected bool isActive;
+    public bool isActive;
     protected bool isNearby;
     bool shellColission;
     protected bool hasInteracted; //Para que solo interactue una vez en una misma colision

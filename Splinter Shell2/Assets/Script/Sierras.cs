@@ -7,14 +7,15 @@ public class Sierras : MonoBehaviour
 
     public float speed = 5f;
     public bool movingRight = true;
+    public Button button;
 
     private void Update()
     {
-        if (movingRight)
+        if (button.isActive && movingRight)
         {
             transform.Translate(Vector3.right * speed * Time.deltaTime);
         }
-        else
+        else if (button.isActive && !movingRight)
         {
             transform.Translate(Vector3.left * speed * Time.deltaTime);
         }
@@ -26,14 +27,12 @@ public class Sierras : MonoBehaviour
         {
             movingRight = !movingRight; // Invierte la dirección de movimiento
         }
-       
-        
-            if (collision.gameObject.CompareTag("Player"))
-            {
-                Debug.Log("El jugador recibió daño.");
-                
-            }
-        
+
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            Debug.Log("El jugador recibió daño.");
+        }
+
     }
 
 }
