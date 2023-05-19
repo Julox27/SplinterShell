@@ -346,18 +346,23 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Script/BalaTorreta.cs"
+"Assets/Script/Button.cs"
 "Assets/Script/Camara.cs"
 "Assets/Script/Caparazon.cs"
 "Assets/Script/Columna.cs"
 "Assets/Script/EnemyGuardian.cs"
 "Assets/Script/GameManager.cs"
+"Assets/Script/Interactuable.cs"
+"Assets/Script/Lever.cs"
 "Assets/Script/MenuScripts/MainMenu.cs"
 "Assets/Script/Movimiento.cs"
 "Assets/Script/NucleoController.cs"
 "Assets/Script/Player.cs"
 "Assets/Script/PrefabManager.cs"
 "Assets/Script/Sierras.cs"
+"Assets/Script/Spikes.cs"
 "Assets/Script/Torreta.cs"
+"Assets/Script/Trap.cs"
 -langversion:9.0
 
 /deterministic
