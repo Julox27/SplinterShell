@@ -27,8 +27,7 @@ public class Spikes : Trap
         timer += Time.deltaTime;
         if (timer >= cooldown)
         {
-            isOn = !isOn;
-            timer = 0;
+            OnOff();
         }
     }
 

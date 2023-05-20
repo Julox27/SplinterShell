@@ -28,7 +28,6 @@ public abstract class Interactuable : MonoBehaviour
     }
     private void OnTriggerEnter(Collider col)
     {
-        
         if (col.CompareTag("Interact"))
         {
             isNearby = true;

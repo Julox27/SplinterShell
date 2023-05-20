@@ -4,13 +4,13 @@ using UnityEngine;
 
 public abstract class Trap : MonoBehaviour
 {
-    protected bool State;
+    protected bool state;
     [SerializeField] protected Interactuable obj;
     protected virtual void Update()
     {
         updateBehavior();
-        State = obj.GetIsActive();
-        if (State)
+        state = obj.GetIsActive();
+        if (state)
         {
             Function();
         }

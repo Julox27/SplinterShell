@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
     public float fuerzaLanzamiento = 10f;
     public float jumpForce;
     public float gravity;
+    private bool isOnFloor;
 
     [HideInInspector] public MeshRenderer meshR;
     [HideInInspector] public CapsuleCollider capColl;
@@ -51,18 +52,20 @@ public class Player : MonoBehaviour
             }
         }
 
-
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Physics.Raycast(transform.position, -transform.up, 2f))
         {
+            isOnFloor = true;
             RaycastHit hit1;
-            if(Physics.Raycast(transform.position, -transform.up, 2f))
+            if (Input.GetKeyDown(KeyCode.Space))
             {
                 jump();
-            }
-            
-           
-
+            }          
         }
+        else
+        {
+            isOnFloor = false;
+        }
+       
     }
 
     void jump()
@@ -92,6 +95,11 @@ public class Player : MonoBehaviour
         rbProyectil.AddForce(direccion * fuerzaLanzamiento, ForceMode.Impulse);
         GameManager.instance.Deslizandose = true;
         yaLanzoProyectil = true;
+    }
+
+    public bool GetIsOnFloor()
+    {
+        return isOnFloor;
     }
 
     void OnCollisionEnter(Collision collision)

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Sierras : Trap
+public class Disc : Trap
 {
 
     public float initialSpeed = 5f;
