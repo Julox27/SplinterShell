@@ -11,15 +11,9 @@ public class Deactivate : MonoBehaviour
     public bool findGameObject = false;
     public GameObject gameObjectFind;
     public bool keyPressed = false;
+    public KeyCode keyCheck = KeyCode.Space;
 
     float timer = 0;
-    // Start is called before the first frame update
-    void Start()
-    {
-        Timer();
-    }
-
-    // Update is called once per frame
     void Update()
     {
         //Desactiva los objetos, si se cumplen las condiciones requeridas, en este caso si queremos agregar condiciones, hay que agregar su variable booleana aca
@@ -59,18 +53,25 @@ public class Deactivate : MonoBehaviour
     }
     void FindTag()
     {
-        findTag = false;
+        GameObject[] objectsWithTag = GameObject.FindGameObjectsWithTag(tagFind);
+        if (objectsWithTag.Length <= 0)
+        {
+            findTag = false;
+        }
     }
     void FindGameObject()
     {
-        gameObjectFind = gameObject.GetComponent<GameObject>();
-        if (gameObjectFind=null)
+        if (gameObjectFind == null)
         {
             findGameObject = false;
-        }    
+        }
     }
     void KeyPressed()
     {
-        keyPressed = false;
+        if (Input.GetKeyDown(keyCheck))
+        {
+            keyPressed = false;
+        }
+
     }
 }
