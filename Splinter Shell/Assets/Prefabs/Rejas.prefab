@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1037365018890303203}
   - component: {fileID: 2495918810976628664}
   - component: {fileID: 7031649914715896552}
+  - component: {fileID: 7776808148874284750}
   m_Layer: 0
   m_Name: Rejas
   m_TagString: Untagged
@@ -83,3 +84,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7776808148874284750
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2481963106819450079}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.955366, y: 4.9553666, z: 0.16417031}
+  m_Center: {x: -0.00000035762787, y: 0, z: 0}

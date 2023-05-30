@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 8813761717616840093}
   - component: {fileID: 3317629208005948586}
   - component: {fileID: 1992765486154604202}
+  - component: {fileID: 7348334713018303090}
+  - component: {fileID: 1377961452137735031}
   m_Layer: 0
   m_Name: MarcoPuerta
   m_TagString: Untagged
@@ -83,3 +85,29 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7348334713018303090
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883660390716173207}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.0276773, y: 9.8027315, z: 2.1094418}
+  m_Center: {x: -3.6305168, y: 0, z: 2.669154e-14}
+--- !u!65 &1377961452137735031
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883660390716173207}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.038161, y: 9.8027315, z: 2.1094418}
+  m_Center: {x: 3.6252756, y: 0, z: 2.0169554e-13}
