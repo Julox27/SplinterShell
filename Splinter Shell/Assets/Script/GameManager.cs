@@ -35,20 +35,16 @@ public class GameManager : MonoBehaviour
 
     public void StopSlide()
     {
-        EsperarDosSegundos();
+        
         Deslizandose = false;
-        player.transform.position = inWorldCaparazon.transform.position + new Vector3(0, 1, 0);
+        player.transform.position = inWorldCaparazon.transform.position + new Vector3(0, 2, 0);
         Destroy(inWorldCaparazon.gameObject);
         player.yaLanzoProyectil = false;
         player.meshR.enabled = true;
         player.capColl.enabled = true;
         player.rb.WakeUp();
     }
-    IEnumerator EsperarDosSegundos()
-    {
-        yield return new WaitForSeconds(4f);
-       
-    }
+   
 
     public void ResetLevel()
     {
