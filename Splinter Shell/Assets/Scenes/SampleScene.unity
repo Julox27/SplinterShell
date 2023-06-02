@@ -43462,6 +43462,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1774550500}
     m_Modifications:
+    - target: {fileID: 2868941374911847720, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
+      propertyPath: m_Size.y
+      value: 3.6310682
+      objectReference: {fileID: 0}
+    - target: {fileID: 2868941374911847720, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
+      propertyPath: m_Size.z
+      value: 1.1769774
+      objectReference: {fileID: 0}
+    - target: {fileID: 2868941374911847720, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
+      propertyPath: m_Center.x
+      value: -0.0000005882279
+      objectReference: {fileID: 0}
+    - target: {fileID: 2868941374911847720, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
+      propertyPath: m_Center.y
+      value: 0.14134254
+      objectReference: {fileID: 0}
+    - target: {fileID: 2868941374911847720, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
+      propertyPath: m_Center.z
+      value: 8.448752
+      objectReference: {fileID: 0}
     - target: {fileID: 5500685911253824480, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
       propertyPath: m_Name
       value: ParedTileable (24)

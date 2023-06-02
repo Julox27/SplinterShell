@@ -7,7 +7,7 @@ public class Caparazon : MonoBehaviour
     private Rigidbody rb;
     private Vector3 direccion;
     private float velocidad = 5f;
-    public float fuerzaDeDesaceleracion = 0.1f;
+    public float fuerzaDeDesaceleracion = 0.0f;
     [SerializeField] private float slideTimer;
 
 
@@ -24,15 +24,8 @@ public class Caparazon : MonoBehaviour
         lastFrameVelocity = rb.velocity;
         GameManager.instance.inWorldCaparazon = this;
 
-        if (GameManager.instance.Deslizandose)
-        {
-            slideTimer -= Time.deltaTime;
-            if(slideTimer <= 0)
-            {
-                GameManager.instance.StopSlide();
-            }
-        }
-        Movement();
+        
+        
     }
 
     [SerializeField]

@@ -37,7 +37,7 @@ public class GameManager : MonoBehaviour
     {
         
         Deslizandose = false;
-        player.transform.position = inWorldCaparazon.transform.position + new Vector3(0, 2, 0);
+        player.transform.position = inWorldCaparazon.transform.position + new Vector3(0, 3, 0);
         Destroy(inWorldCaparazon.gameObject);
         player.yaLanzoProyectil = false;
         player.meshR.enabled = true;
