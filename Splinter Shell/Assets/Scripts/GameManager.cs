@@ -43,11 +43,29 @@ public class GameManager : MonoBehaviour
         player.meshR.enabled = true;
         player.capColl.enabled = true;
         player.rb.WakeUp();
+
     }
+
    
 
     public void ResetLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    private Vector3 GetRespawnPosition()
+    {
+        RaycastHit hit;
+        if (Physics.Raycast(inWorldCaparazon.transform.position, Vector3.down, out hit, Mathf.Infinity))
+        {
+            if (hit.collider.CompareTag("Piso"))
+            {
+                return hit.point + new Vector3(0, 1f, 0);
+
+            }
+        }
+
+        // Fallback to original respawn position
+        return hit.point + new Vector3(0, 1f, 0);
     }
 }

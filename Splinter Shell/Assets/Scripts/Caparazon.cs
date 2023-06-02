@@ -7,13 +7,13 @@ public class Caparazon : MonoBehaviour
     private Rigidbody rb;
     private Vector3 direccion;
     private float velocidad = 5f;
-    public float fuerzaDeDesaceleracion = 0.0f;
-    [SerializeField] private float slideTimer;
+    
+   
 
 
     void Start()
     {
-        slideTimer = 3;
+        
         rb = GetComponent<Rigidbody>();
         direccion = transform.forward;
     }
