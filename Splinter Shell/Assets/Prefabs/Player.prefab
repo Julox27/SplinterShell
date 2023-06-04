@@ -117,7 +117,7 @@ MonoBehaviour:
   yaLanzoProyectil: 0
   fuerzaLanzamiento: 30
   jumpForce: 40
-  gravity: 30
+  gravity: 10
   meshR: {fileID: 0}
   capColl: {fileID: 0}
   rb: {fileID: 0}
@@ -136,6 +136,7 @@ MonoBehaviour:
   velocidad: 10
   velocidadRotacionX: 5
   prefabProyectil: {fileID: 7573236834129448647, guid: 08419f0b0aef7a342bf628a88f42b425, type: 3}
+  anim: {fileID: 0}
 --- !u!54 &1841435643703639364
 Rigidbody:
   m_ObjectHideFlags: 0

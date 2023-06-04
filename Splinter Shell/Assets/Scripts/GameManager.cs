@@ -25,6 +25,8 @@ public class GameManager : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.R) || vidaPlayer <= 0)
         {
             ResetLevel();
+            StopSlide();
+           
             vidaPlayer = 3;
         }
         if(Input.GetKeyDown(KeyCode.Escape))
@@ -35,14 +37,26 @@ public class GameManager : MonoBehaviour
 
     public void StopSlide()
     {
-        
+
         Deslizandose = false;
-        player.transform.position = inWorldCaparazon.transform.position + new Vector3(0, 3, 0);
+        player.transform.position = inWorldCaparazon.transform.position;
         Destroy(inWorldCaparazon.gameObject);
         player.yaLanzoProyectil = false;
         player.meshR.enabled = true;
         player.capColl.enabled = true;
         player.rb.WakeUp();
+
+        // Obtén la dirección de la cámara sin tomar en cuenta la inclinación vertical
+        Vector3 direccionCamara = Camera.main.transform.forward;
+        direccionCamara.y = 0f;
+        direccionCamara.Normalize();
+
+        // Calcula la rotación correspondiente a la dirección de la cámara
+        Quaternion rotacionJugador = Quaternion.LookRotation(direccionCamara);
+
+        // Aplica la rotación al jugador
+        GameManager.instance.player.transform.rotation = rotacionJugador;
+
 
     }
 
