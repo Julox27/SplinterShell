@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class Door : Trap
 {
-    MeshCollider bcd;
+    BoxCollider bcd;
     Renderer doorRenderer;
 
     private void Start()
     {
-        bcd = this.gameObject.GetComponent<MeshCollider>();
+        bcd = this.gameObject.GetComponent<BoxCollider>();
         doorRenderer = GetComponent<Renderer>();
     }
     public override void Function()
