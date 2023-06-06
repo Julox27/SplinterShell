@@ -55,7 +55,7 @@ public class Player : MonoBehaviour
         if (Physics.Raycast(transform.position, -transform.up, 2f))
         {
             isOnFloor = true;
-            RaycastHit hit1;
+            
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 jump();
@@ -79,7 +79,7 @@ public class Player : MonoBehaviour
     private void Shoot()
     {
         Vector3 posicionLanzamiento = transform.position + transform.forward * 2f + Vector3.down * 0.5f; // Vector que indica la posición de lanzamiento
-        GameObject proyectil = Instantiate(PrefabManager.instance.Caparazon, posicionLanzamiento + new Vector3(0, 1, 0), transform.rotation);
+        GameObject proyectil = Instantiate(PrefabManager.instance.Caparazon, posicionLanzamiento + new Vector3(0, 0, 0), transform.rotation);
         Rigidbody rbProyectil = proyectil.GetComponent<Rigidbody>();
         Vector3 direccion = new Vector3(gameObject.transform.forward.x, 0.2f, gameObject.transform.forward.z).normalized;
         rbProyectil.AddForce(direccion * fuerzaLanzamiento, ForceMode.Impulse);
