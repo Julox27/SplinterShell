@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        vidaPlayer = 3;
+        
         Deslizandose = false;
         if (instance == null) instance = this;
         else Destroy(gameObject);
@@ -22,12 +22,12 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.R) || vidaPlayer <= 0)
+        if(Input.GetKeyDown(KeyCode.R))
         {
             ResetLevel();
             StopSlide();
            
-            vidaPlayer = 3;
+            
         }
         if(Input.GetKeyDown(KeyCode.Escape))
         {
