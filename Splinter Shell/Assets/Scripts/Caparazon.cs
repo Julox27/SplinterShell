@@ -7,13 +7,13 @@ public class Caparazon : MonoBehaviour
     private Rigidbody rb;
     private Vector3 direccion;
     private float velocidad = 5f;
-    
-   
+
+
 
 
     void Start()
     {
-        
+
         rb = GetComponent<Rigidbody>();
         direccion = transform.forward;
     }
@@ -24,8 +24,8 @@ public class Caparazon : MonoBehaviour
         lastFrameVelocity = rb.velocity;
         GameManager.instance.inWorldCaparazon = this;
 
-        
-        
+
+
     }
 
     [SerializeField]
@@ -36,7 +36,7 @@ public class Caparazon : MonoBehaviour
     private float minVelocity = 10f;
 
     private Vector3 lastFrameVelocity;
-    
+
 
     private void OnEnable()
     {
@@ -44,11 +44,11 @@ public class Caparazon : MonoBehaviour
         rb.velocity = initialVelocity;
     }
 
-    
+
 
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.CompareTag("Pared"))
+        if (collision.gameObject.CompareTag("Pared") || collision.gameObject.CompareTag("BarrelDestroy"))
         {
             Bounce(collision.contacts[0].normal);
         }
@@ -65,13 +65,14 @@ public class Caparazon : MonoBehaviour
 
     private void Movement()
     {
-        if(GameManager.instance.Deslizandose)
+        if (GameManager.instance.Deslizandose)
         {
             float movimientoHorizontal = Input.GetAxis("Horizontal");
             transform.position += gameObject.transform.right * movimientoHorizontal * (velocidad / 2) * Time.deltaTime;
         }
-            transform.position += direccion * velocidad * 2 * Time.deltaTime;
+        transform.position += direccion * velocidad * 2 * Time.deltaTime;
     }
+
 }
 
 

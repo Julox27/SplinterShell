@@ -94,6 +94,9 @@ GameObject:
   - component: {fileID: 5884864495329537713}
   - component: {fileID: 2020432944471992214}
   - component: {fileID: 7202421736519321537}
+  - component: {fileID: 5442450076507498786}
+  - component: {fileID: 1822004309443553417}
+  - component: {fileID: 6977566833813323997}
   m_Layer: 0
   m_Name: Marco
   m_TagString: Untagged
@@ -166,6 +169,45 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5442450076507498786
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3993877618865431338}
+  m_Material: {fileID: 13400000, guid: 2a1a976b14f04a54fbd984a4d54acfc6, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.9372988, y: 3.5064132, z: 0.6610464}
+  m_Center: {x: 0, y: 0, z: -1.2821923}
+--- !u!65 &1822004309443553417
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3993877618865431338}
+  m_Material: {fileID: 13400000, guid: 2a1a976b14f04a54fbd984a4d54acfc6, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.9372988, y: 3.5064132, z: 0.63298047}
+  m_Center: {x: 0, y: 0, z: 1.2714708}
+--- !u!65 &6977566833813323997
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3993877618865431338}
+  m_Material: {fileID: 13400000, guid: 2a1a976b14f04a54fbd984a4d54acfc6, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.9372988, y: 0.6589201, z: 3.225416}
+  m_Center: {x: 0, y: 1.4237564, z: 0}
 --- !u!1 &8515070708592257677
 GameObject:
   m_ObjectHideFlags: 0

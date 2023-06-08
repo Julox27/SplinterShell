@@ -25,13 +25,13 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        if(!yaLanzoProyectil)
+        if (!yaLanzoProyectil)
         {
             if (Input.GetMouseButtonDown(0))
             {
                 Shoot();
             }
-            if(Input.GetKeyDown(KeyCode.Q))
+            if (Input.GetKeyDown(KeyCode.Q))
             {
                 Slide();
                 meshR.enabled = false;
@@ -39,9 +39,9 @@ public class Player : MonoBehaviour
                 rb.Sleep();
             }
         }
-        else if(Input.GetKeyDown(KeyCode.E))
+        else if (Input.GetKeyDown(KeyCode.E))
         {
-            if(GameManager.instance.Deslizandose == false)
+            if (GameManager.instance.Deslizandose == false)
             {
                 Destroy(GameManager.instance.inWorldCaparazon.gameObject);
                 yaLanzoProyectil = false;
@@ -55,17 +55,17 @@ public class Player : MonoBehaviour
         if (Physics.Raycast(transform.position, -transform.up, 2f))
         {
             isOnFloor = true;
-            RaycastHit hit1;
+
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 jump();
-            }          
+            }
         }
         else
         {
             isOnFloor = false;
         }
-       
+
     }
 
     void jump()
@@ -79,7 +79,7 @@ public class Player : MonoBehaviour
     private void Shoot()
     {
         Vector3 posicionLanzamiento = transform.position + transform.forward * 2f + Vector3.down * 0.5f; // Vector que indica la posición de lanzamiento
-        GameObject proyectil = Instantiate(PrefabManager.instance.Caparazon, posicionLanzamiento + new Vector3(0, 1, 0), transform.rotation);
+        GameObject proyectil = Instantiate(PrefabManager.instance.Caparazon, posicionLanzamiento + new Vector3(0, 0, 0), transform.rotation);
         Rigidbody rbProyectil = proyectil.GetComponent<Rigidbody>();
         Vector3 direccion = new Vector3(gameObject.transform.forward.x, 0.2f, gameObject.transform.forward.z).normalized;
         rbProyectil.AddForce(direccion * fuerzaLanzamiento, ForceMode.Impulse);
@@ -109,7 +109,7 @@ public class Player : MonoBehaviour
             yaLanzoProyectil = false;
             Destroy(collision.gameObject);
         }
-        if(collision.gameObject.CompareTag("lava"))
+        if (collision.gameObject.CompareTag("lava"))
         {
 
             Destroy(this.gameObject);

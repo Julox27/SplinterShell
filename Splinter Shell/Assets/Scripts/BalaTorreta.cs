@@ -11,9 +11,9 @@ public class BalaTorreta : MonoBehaviour
     void Update()
     {
         bTimer -= Time.deltaTime;
-        transform.Translate(0, 0,30 * Time.deltaTime, Space.Self);
+        transform.Translate(0, 0, 30 * Time.deltaTime, Space.Self);
 
-        if(bTimer <= 0)
+        if (bTimer <= 0)
         {
             Destroy(gameObject);
         }
@@ -31,14 +31,14 @@ public class BalaTorreta : MonoBehaviour
         {
             Debug.Log("Choque contra entorno");
             Destroy(gameObject);
-       
+
         }
 
         if (collision.gameObject.CompareTag("Nucleo"))
         {
             NucleoController nucleo = collision.gameObject.GetComponent<NucleoController>();
             nucleo.RecibirDano(1);
-           
+
             Destroy(gameObject);
         }
     }

@@ -10,15 +10,15 @@ public class Movimiento : MonoBehaviour
     private bool _isMoving;
     public Animator anim;
 
-
-
     private Player player;
-    private Vector3 rotacionActual;
+    private Rigidbody rb;
+    private Camera mainCamera;
 
     private void Start()
     {
-        rotacionActual = transform.rotation.eulerAngles;
         player = GetComponent<Player>();
+        rb = GetComponent<Rigidbody>();
+        mainCamera = Camera.main;
     }
 
     void Update()
@@ -27,24 +27,23 @@ public class Movimiento : MonoBehaviour
         float movimientoHorizontal = Input.GetAxis("Horizontal");
         float movimientoVertical = Input.GetAxis("Vertical");
 
-        // Crear un vector de movimiento basado en el valor de entrada y la velocidad.
-        Vector3 movimiento = gameObject.transform.forward * movimientoVertical + gameObject.transform.right * movimientoHorizontal;
-        movimiento.Normalize();
+        // Obtener la dirección hacia adelante de la cámara.
+        Vector3 direccionCamara = mainCamera.transform.forward;
+        direccionCamara.y = 0f;
+        direccionCamara.Normalize();
 
-        movimiento *= velocidad * Time.deltaTime;
+        // Crear un vector de movimiento basado en el valor de entrada, la dirección de la cámara y la velocidad.
+        Vector3 movimiento = (movimientoHorizontal * mainCamera.transform.right + movimientoVertical * direccionCamara) * velocidad;
+        movimiento.y = rb.velocity.y; // Mantener la velocidad vertical actual.
+
+        // Aplicar la fuerza al Rigidbody para mover al personaje.
+        rb.velocity = movimiento;
 
         // Rotar el objeto en el eje X.
         float rotacionX = Input.GetAxis("Mouse X") * velocidadRotacionX;
         transform.Rotate(0, rotacionX, 0);
 
-        // Mover el objeto en la dirección del vector de movimiento.
-        transform.position += movimiento;
         _isMoving = movimiento.magnitude > 0;
         anim.SetBool("isMoving", _isMoving);
-    }
-
-    public bool GetIsMoving()
-    {
-        return _isMoving;
     }
 }

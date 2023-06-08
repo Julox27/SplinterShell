@@ -15,11 +15,11 @@ public class Torreta : MonoBehaviour
         nucleosRestantes = nucleosMaximos;
         player = GameObject.FindWithTag("Player");
     }
-    
 
-        void Update()
+
+    void Update()
     {
-        if(GameManager.instance.Deslizandose)
+        if (GameManager.instance.Deslizandose)
         {
             transform.rotation = Quaternion.LookRotation(GameManager.instance.inWorldCaparazon.transform.position - gameObject.transform.position);
         }
@@ -40,13 +40,13 @@ public class Torreta : MonoBehaviour
             }
         }
 
-        }
+    }
 
     private void Shoot()
     {
         Instantiate(PrefabManager.instance.BalaTorreta, bulletShooter.position, bulletShooter.rotation);
     }
-    
+
     public void NucleoDestruido()
     {
         nucleosRestantes--;

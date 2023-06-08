@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5862962825102032413}
   - component: {fileID: 1115186667860576508}
   - component: {fileID: 1593852828317053563}
-  - component: {fileID: -5351196090313727597}
+  - component: {fileID: 8781997885473453955}
   m_Layer: 0
   m_Name: PilarGrande
   m_TagString: Untagged
@@ -84,29 +84,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!61 &-5351196090313727597
-BoxCollider2D:
+--- !u!65 &8781997885473453955
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2038809355817004841}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 2a1a976b14f04a54fbd984a4d54acfc6, type: 2}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.00000035762787, y: -0.00000071525574}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 4.236292, y: 8.272598}
-  m_EdgeRadius: 0
+  m_Size: {x: 4.236292, y: 8.272598, z: 4.23629}
+  m_Center: {x: 0.00000035762787, y: -0.00000071525574, z: 0}
