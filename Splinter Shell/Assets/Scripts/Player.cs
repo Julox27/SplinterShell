@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
     public float jumpForce;
     public float gravity;
     private bool isOnFloor;
+    
 
     [HideInInspector] public MeshRenderer meshR;
     [HideInInspector] public CapsuleCollider capColl;
@@ -21,6 +22,7 @@ public class Player : MonoBehaviour
         capColl = GetComponent<CapsuleCollider>();
         rb = GetComponent<Rigidbody>();
         Physics.gravity = new Vector3(0, -gravity, 0);
+       
     }
 
     private void Update()
@@ -115,4 +117,6 @@ public class Player : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
+
+    
 }

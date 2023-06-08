@@ -7,7 +7,7 @@ public class Movimiento : MonoBehaviour
     public float velocidad = 5f;
     public float velocidadRotacionX = 5.0f;
     public GameObject prefabProyectil;
-    private bool _isMoving;
+    public bool _isMoving;
     public Animator anim;
 
     private Player player;
@@ -19,6 +19,7 @@ public class Movimiento : MonoBehaviour
         player = GetComponent<Player>();
         rb = GetComponent<Rigidbody>();
         mainCamera = Camera.main;
+        anim = GameObject.Find("tortugaa").GetComponent<Animator>();
     }
 
     void Update()
@@ -43,7 +44,14 @@ public class Movimiento : MonoBehaviour
         float rotacionX = Input.GetAxis("Mouse X") * velocidadRotacionX;
         transform.Rotate(0, rotacionX, 0);
 
-        _isMoving = movimiento.magnitude > 0;
-        anim.SetBool("isMoving", _isMoving);
+        if(movimientoHorizontal != 0 || movimientoVertical != 0)
+        {
+            anim.SetBool("isMoving", true);
+        }
+        else
+        {
+            anim.SetBool("isMoving", false);
+        }
+        
     }
 }
