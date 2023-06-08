@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.33292755, g: 0.20334959, b: 0.3736456, a: 1}
+  m_IndirectSpecularColor: {r: 0.33292726, g: 0.20334941, b: 0.37364498, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -8701,6 +8701,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 408306959}
     m_Modifications:
+    - target: {fileID: -701897779715581555, guid: 52abc7ba165f30e448980f456eaa1f86, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -701897779715581555, guid: 52abc7ba165f30e448980f456eaa1f86, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -701897779715581555, guid: 52abc7ba165f30e448980f456eaa1f86, type: 3}
+      propertyPath: InitialModule.startSizeY.scalar
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -701897779715581555, guid: 52abc7ba165f30e448980f456eaa1f86, type: 3}
+      propertyPath: InitialModule.startSizeZ.scalar
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -701897779715581555, guid: 52abc7ba165f30e448980f456eaa1f86, type: 3}
+      propertyPath: InitialModule.startColor.minColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -701897779715581555, guid: 52abc7ba165f30e448980f456eaa1f86, type: 3}
+      propertyPath: InitialModule.startColor.minColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -701897779715581555, guid: 52abc7ba165f30e448980f456eaa1f86, type: 3}
+      propertyPath: InitialModule.startColor.minColor.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2164014911716330224, guid: 52abc7ba165f30e448980f456eaa1f86, type: 3}
       propertyPath: m_Name
       value: Barril (3)
@@ -14459,23 +14487,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ed2224d97104da41b38b7d5b9a2e6d3, type: 3}
---- !u!1 &1435977972 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2164014911716330224, guid: 52abc7ba165f30e448980f456eaa1f86, type: 3}
-  m_PrefabInstance: {fileID: 824768156}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1435977973
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1435977972}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23cfe761b40dadb4bb1715fafba75af8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1435977977 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3576812556765059791, guid: 52abc7ba165f30e448980f456eaa1f86, type: 3}

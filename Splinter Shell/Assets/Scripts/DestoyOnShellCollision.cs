@@ -4,12 +4,19 @@ using UnityEngine;
 
 public class DestoyOnShellCollision : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private ParticleSystem particles;
+
+    private void Start()
+    {
+        particles = GetComponent<ParticleSystem>();
+    }
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Proyectil"))
         {
-            Destroy(this.gameObject);
+            particles.Play();
+            Destroy(this.gameObject, particles.duration);
+            
         }
     }
 }
