@@ -48,7 +48,7 @@ public class Caparazon : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.CompareTag("Pared")|| collision.gameObject.CompareTag("BarrelDestroy"))
+        if(collision.gameObject.CompareTag("Pared"))
         {
             Bounce(collision.contacts[0].normal);
         }
@@ -72,7 +72,6 @@ public class Caparazon : MonoBehaviour
         }
             transform.position += direccion * velocidad * 2 * Time.deltaTime;
     }
-
 }
 
 

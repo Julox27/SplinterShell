@@ -134,10 +134,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (41)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -203,10 +199,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (276)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -358,10 +350,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -1192,10 +1180,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock3 (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 3359895419186523788, guid: cde0f13988b77884e882f4f653743b43, type: 3}
-      propertyPath: m_TagString
-      value: Pared
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cde0f13988b77884e882f4f653743b43, type: 3}
 --- !u!1001 &31888676
@@ -1264,10 +1248,6 @@ PrefabInstance:
     - target: {fileID: 3359895419186523788, guid: cde0f13988b77884e882f4f653743b43, type: 3}
       propertyPath: m_Name
       value: Rock3 (10)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3359895419186523788, guid: cde0f13988b77884e882f4f653743b43, type: 3}
-      propertyPath: m_TagString
-      value: Pared
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cde0f13988b77884e882f4f653743b43, type: 3}
@@ -1593,10 +1573,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (186)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -1731,10 +1707,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (271)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -2007,10 +1979,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock3 (14)
       objectReference: {fileID: 0}
-    - target: {fileID: 3359895419186523788, guid: cde0f13988b77884e882f4f653743b43, type: 3}
-      propertyPath: m_TagString
-      value: Pared
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cde0f13988b77884e882f4f653743b43, type: 3}
 --- !u!4 &49544941 stripped
@@ -2157,10 +2125,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (131)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -2226,10 +2190,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (69)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -2297,10 +2257,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (150)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -2366,10 +2322,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (92)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -2525,10 +2477,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (27)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -2865,10 +2813,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (21)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -3173,10 +3117,6 @@ PrefabInstance:
     - target: {fileID: 2032669090717919002, guid: d2686524d9254a4428b1c47b397be3e9, type: 3}
       propertyPath: m_Name
       value: Rock4 (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2032669090717919002, guid: d2686524d9254a4428b1c47b397be3e9, type: 3}
-      propertyPath: m_TagString
-      value: Pared
       objectReference: {fileID: 0}
     - target: {fileID: 2894535388041165059, guid: d2686524d9254a4428b1c47b397be3e9, type: 3}
       propertyPath: m_RootOrder
@@ -3687,10 +3627,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (84)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -3779,10 +3715,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (95)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -4283,6 +4215,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2251071584437255942, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
   m_PrefabInstance: {fileID: 121814475}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &122607339 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 830497877374978540, guid: 327133bfa360e5549a8a535167dd4804, type: 3}
+  m_PrefabInstance: {fileID: 1269422233}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &122607341
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 122607339}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0239763, y: 3.631068, z: 1.1718507}
+  m_Center: {x: -0.0000005662441, y: 0.14134252, z: 4.5547}
 --- !u!1001 &124778025
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4441,10 +4391,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1774550500}
     m_Modifications:
-    - target: {fileID: 4751793403203854024, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 8c597109a544ac34da37fbfc54c0e49e, type: 2}
     - target: {fileID: 5500685911253824480, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
       propertyPath: m_Name
       value: ParedTileable (4)
@@ -4589,10 +4535,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (242)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -4658,10 +4600,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (77)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -4790,6 +4728,87 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2251071584437255942, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
   m_PrefabInstance: {fileID: 261166475}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &139189674
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1037365018890303203, guid: 8048d5fdcefd9424a80fdfd36ccecdd4, type: 3}
+      propertyPath: m_RootOrder
+      value: 41
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037365018890303203, guid: 8048d5fdcefd9424a80fdfd36ccecdd4, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.8695816
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037365018890303203, guid: 8048d5fdcefd9424a80fdfd36ccecdd4, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.8695816
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037365018890303203, guid: 8048d5fdcefd9424a80fdfd36ccecdd4, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.8695816
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037365018890303203, guid: 8048d5fdcefd9424a80fdfd36ccecdd4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 156.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037365018890303203, guid: 8048d5fdcefd9424a80fdfd36ccecdd4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -11.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037365018890303203, guid: 8048d5fdcefd9424a80fdfd36ccecdd4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 12.549039
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037365018890303203, guid: 8048d5fdcefd9424a80fdfd36ccecdd4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037365018890303203, guid: 8048d5fdcefd9424a80fdfd36ccecdd4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037365018890303203, guid: 8048d5fdcefd9424a80fdfd36ccecdd4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.70710677
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037365018890303203, guid: 8048d5fdcefd9424a80fdfd36ccecdd4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037365018890303203, guid: 8048d5fdcefd9424a80fdfd36ccecdd4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037365018890303203, guid: 8048d5fdcefd9424a80fdfd36ccecdd4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037365018890303203, guid: 8048d5fdcefd9424a80fdfd36ccecdd4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2481963106819450079, guid: 8048d5fdcefd9424a80fdfd36ccecdd4, type: 3}
+      propertyPath: m_Name
+      value: Rejas
+      objectReference: {fileID: 0}
+    - target: {fileID: 7776808148874284750, guid: 8048d5fdcefd9424a80fdfd36ccecdd4, type: 3}
+      propertyPath: m_Size.y
+      value: 4.723787
+      objectReference: {fileID: 0}
+    - target: {fileID: 7776808148874284750, guid: 8048d5fdcefd9424a80fdfd36ccecdd4, type: 3}
+      propertyPath: m_Center.x
+      value: -0.0000002550502
+      objectReference: {fileID: 0}
+    - target: {fileID: 7776808148874284750, guid: 8048d5fdcefd9424a80fdfd36ccecdd4, type: 3}
+      propertyPath: m_Center.y
+      value: -0.11578883
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8048d5fdcefd9424a80fdfd36ccecdd4, type: 3}
 --- !u!4 &139207290 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2251071584437255942, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
@@ -4867,10 +4886,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (136)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -5100,10 +5115,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1774550500}
     m_Modifications:
-    - target: {fileID: 4751793403203854024, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 8c597109a544ac34da37fbfc54c0e49e, type: 2}
     - target: {fileID: 5500685911253824480, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
       propertyPath: m_Name
       value: ParedTileable (8)
@@ -5176,10 +5187,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (151)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -5268,10 +5275,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (65)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -5401,10 +5404,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (268)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -5470,10 +5469,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (211)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -6116,10 +6111,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock3 (15)
       objectReference: {fileID: 0}
-    - target: {fileID: 3359895419186523788, guid: cde0f13988b77884e882f4f653743b43, type: 3}
-      propertyPath: m_TagString
-      value: Pared
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cde0f13988b77884e882f4f653743b43, type: 3}
 --- !u!4 &187166713 stripped
@@ -6693,10 +6684,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (81)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -7176,10 +7163,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (197)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -7649,10 +7632,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (134)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -7981,10 +7960,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (145)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -8478,10 +8453,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (237)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -8591,10 +8562,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (97)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -8660,10 +8627,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (204)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -8807,10 +8770,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (133)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -8953,10 +8912,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1774550500}
     m_Modifications:
-    - target: {fileID: 4751793403203854024, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 8c597109a544ac34da37fbfc54c0e49e, type: 2}
     - target: {fileID: 5500685911253824480, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
       propertyPath: m_Name
       value: ParedTileable (7)
@@ -9227,10 +9182,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (153)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -9301,10 +9252,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (269)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -9570,10 +9517,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1774550500}
     m_Modifications:
-    - target: {fileID: 4751793403203854024, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 8c597109a544ac34da37fbfc54c0e49e, type: 2}
     - target: {fileID: 5500685911253824480, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
       propertyPath: m_Name
       value: ParedTileable (6)
@@ -9715,10 +9658,6 @@ PrefabInstance:
     - target: {fileID: 3976255680401175019, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
       propertyPath: m_Name
       value: Rock2 (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3976255680401175019, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
-      propertyPath: m_TagString
-      value: Pared
       objectReference: {fileID: 0}
     - target: {fileID: 4019750004420078306, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
       propertyPath: m_RootOrder
@@ -10175,10 +10114,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock3 (12)
       objectReference: {fileID: 0}
-    - target: {fileID: 3359895419186523788, guid: cde0f13988b77884e882f4f653743b43, type: 3}
-      propertyPath: m_TagString
-      value: Pared
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cde0f13988b77884e882f4f653743b43, type: 3}
 --- !u!4 &309826944 stripped
@@ -10196,10 +10131,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (101)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -10520,10 +10451,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock3 (21)
       objectReference: {fileID: 0}
-    - target: {fileID: 3359895419186523788, guid: cde0f13988b77884e882f4f653743b43, type: 3}
-      propertyPath: m_TagString
-      value: Pared
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cde0f13988b77884e882f4f653743b43, type: 3}
 --- !u!1001 &315287048
@@ -10598,10 +10525,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (124)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -10667,10 +10590,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (179)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -10742,10 +10661,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (99)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -11024,10 +10939,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (176)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -11099,10 +11010,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (18)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -11168,10 +11075,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (254)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -11654,10 +11557,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (15)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -11723,10 +11622,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (188)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -11798,10 +11693,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (280)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -11934,10 +11825,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (114)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -12079,10 +11966,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (184)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -12148,10 +12031,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (104)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -12274,10 +12153,6 @@ PrefabInstance:
     - target: {fileID: 3359895419186523788, guid: cde0f13988b77884e882f4f653743b43, type: 3}
       propertyPath: m_Name
       value: Rock3 (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3359895419186523788, guid: cde0f13988b77884e882f4f653743b43, type: 3}
-      propertyPath: m_TagString
-      value: Pared
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cde0f13988b77884e882f4f653743b43, type: 3}
@@ -12848,10 +12723,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (283)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -13200,10 +13071,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (39)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -13565,10 +13432,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (53)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -13634,10 +13497,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (177)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -13778,10 +13637,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (219)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -13929,10 +13784,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1774550500}
     m_Modifications:
-    - target: {fileID: 4751793403203854024, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 8c597109a544ac34da37fbfc54c0e49e, type: 2}
     - target: {fileID: 5500685911253824480, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
       propertyPath: m_Name
       value: ParedTileable (10)
@@ -14495,10 +14346,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (159)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -14826,10 +14673,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -15069,10 +14912,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (78)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -15501,10 +15340,6 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4751793403203854024, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 8c597109a544ac34da37fbfc54c0e49e, type: 2}
     - target: {fileID: 5500685911253824480, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
       propertyPath: m_Name
       value: ParedTileable
@@ -15817,10 +15652,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (57)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -16012,10 +15843,6 @@ PrefabInstance:
     - target: {fileID: 3976255680401175019, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
       propertyPath: m_Name
       value: Rock2 (15)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3976255680401175019, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
-      propertyPath: m_TagString
-      value: Pared
       objectReference: {fileID: 0}
     - target: {fileID: 4019750004420078306, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
       propertyPath: m_RootOrder
@@ -16416,10 +16243,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (30)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -16754,10 +16577,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (123)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -16875,6 +16694,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7605178815378676221, guid: 1ed2224d97104da41b38b7d5b9a2e6d3, type: 3}
   m_PrefabInstance: {fileID: 487289311}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &489288456 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3022119488810367877, guid: 1ed2224d97104da41b38b7d5b9a2e6d3, type: 3}
+  m_PrefabInstance: {fileID: 1355325577}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &489288458
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 489288456}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.17785683, y: 3.6310687, z: 3.81269}
+  m_Center: {x: 0, y: -0.008587003, z: 5.6360517}
 --- !u!1001 &490836714
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16885,10 +16722,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (270)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -17207,10 +17040,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (48)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -17536,10 +17365,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock3 (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 3359895419186523788, guid: cde0f13988b77884e882f4f653743b43, type: 3}
-      propertyPath: m_TagString
-      value: Pared
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cde0f13988b77884e882f4f653743b43, type: 3}
 --- !u!1001 &507729127
@@ -17626,10 +17451,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (26)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -17936,10 +17757,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock3 (16)
       objectReference: {fileID: 0}
-    - target: {fileID: 3359895419186523788, guid: cde0f13988b77884e882f4f653743b43, type: 3}
-      propertyPath: m_TagString
-      value: Pared
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cde0f13988b77884e882f4f653743b43, type: 3}
 --- !u!1001 &517102370
@@ -18027,10 +17844,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (86)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -18102,10 +17915,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock2 (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 3976255680401175019, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
-      propertyPath: m_TagString
-      value: Pared
-      objectReference: {fileID: 0}
     - target: {fileID: 4019750004420078306, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
       propertyPath: m_RootOrder
       value: 27
@@ -18173,10 +17982,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
-      value: Piso
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
       value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
@@ -18469,10 +18274,6 @@ PrefabInstance:
     - target: {fileID: 883660390716173207, guid: 5b57d7221301fe747946af2863ee6636, type: 3}
       propertyPath: m_Name
       value: MarcoPuerta (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 883660390716173207, guid: 5b57d7221301fe747946af2863ee6636, type: 3}
-      propertyPath: m_TagString
-      value: Pared
       objectReference: {fileID: 0}
     - target: {fileID: 8813761717616840093, guid: 5b57d7221301fe747946af2863ee6636, type: 3}
       propertyPath: m_RootOrder
@@ -18935,10 +18736,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (187)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -19004,10 +18801,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (44)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -19158,10 +18951,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock3 (19)
       objectReference: {fileID: 0}
-    - target: {fileID: 3359895419186523788, guid: cde0f13988b77884e882f4f653743b43, type: 3}
-      propertyPath: m_TagString
-      value: Pared
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cde0f13988b77884e882f4f653743b43, type: 3}
 --- !u!1001 &559794806
@@ -19174,10 +18963,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (37)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -19320,10 +19105,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (195)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -19719,10 +19500,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (209)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -20065,10 +19842,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (109)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -20134,10 +19907,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (24)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -20335,10 +20104,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (111)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -20405,10 +20170,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (250)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -20474,10 +20235,6 @@ PrefabInstance:
     - target: {fileID: 3976255680401175019, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
       propertyPath: m_Name
       value: Rock2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3976255680401175019, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
-      propertyPath: m_TagString
-      value: Pared
       objectReference: {fileID: 0}
     - target: {fileID: 4019750004420078306, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
       propertyPath: m_RootOrder
@@ -21071,10 +20828,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (193)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -21455,10 +21208,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (66)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -21524,10 +21273,6 @@ PrefabInstance:
     - target: {fileID: 3976255680401175019, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
       propertyPath: m_Name
       value: Rock2 (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3976255680401175019, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
-      propertyPath: m_TagString
-      value: Pared
       objectReference: {fileID: 0}
     - target: {fileID: 4019750004420078306, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
       propertyPath: m_RootOrder
@@ -22164,10 +21909,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (72)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -22370,10 +22111,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (196)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -22506,10 +22243,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (201)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -22796,10 +22529,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (12)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -23404,10 +23133,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (182)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -23549,10 +23274,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (115)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -23773,10 +23494,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (149)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -24131,10 +23848,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (79)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -24266,10 +23979,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (156)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -25110,10 +24819,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (55)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -25354,10 +25059,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (277)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -25423,10 +25124,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (62)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -26000,10 +25697,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1774550500}
     m_Modifications:
-    - target: {fileID: 4751793403203854024, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 8c597109a544ac34da37fbfc54c0e49e, type: 2}
     - target: {fileID: 5500685911253824480, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
       propertyPath: m_Name
       value: ParedTileable (17)
@@ -26146,10 +25839,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (117)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -26278,10 +25967,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (43)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -26347,10 +26032,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (98)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -26542,10 +26223,6 @@ PrefabInstance:
     - target: {fileID: 3359895419186523788, guid: cde0f13988b77884e882f4f653743b43, type: 3}
       propertyPath: m_Name
       value: Rock3 (13)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3359895419186523788, guid: cde0f13988b77884e882f4f653743b43, type: 3}
-      propertyPath: m_TagString
-      value: Pared
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cde0f13988b77884e882f4f653743b43, type: 3}
@@ -26841,10 +26518,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (274)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -26915,10 +26588,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (45)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -27090,10 +26759,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1774550500}
     m_Modifications:
-    - target: {fileID: 4751793403203854024, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 8c597109a544ac34da37fbfc54c0e49e, type: 2}
     - target: {fileID: 5500685911253824480, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
       propertyPath: m_Name
       value: ParedTileable (9)
@@ -27586,10 +27251,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (161)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -27849,10 +27510,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (173)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -27980,10 +27637,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (58)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -28249,10 +27902,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (178)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -28336,10 +27985,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (23)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -28564,10 +28209,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (31)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -29001,10 +28642,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (199)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -29070,10 +28707,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (226)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -29273,10 +28906,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (129)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -29342,10 +28971,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (287)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -29759,10 +29384,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (75)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -29957,10 +29578,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1774550500}
     m_Modifications:
-    - target: {fileID: 4751793403203854024, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 8c597109a544ac34da37fbfc54c0e49e, type: 2}
     - target: {fileID: 5500685911253824480, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
       propertyPath: m_Name
       value: ParedTileable (21)
@@ -30368,10 +29985,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (138)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -30630,10 +30243,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (246)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -30765,10 +30374,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (257)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -31239,10 +30844,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (103)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -31688,10 +31289,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (202)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -31754,10 +31351,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1774550500}
     m_Modifications:
-    - target: {fileID: 4751793403203854024, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 8c597109a544ac34da37fbfc54c0e49e, type: 2}
     - target: {fileID: 5500685911253824480, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
       propertyPath: m_Name
       value: ParedTileable (22)
@@ -32004,10 +31597,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (255)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -32129,10 +31718,6 @@ PrefabInstance:
     - target: {fileID: 3359895419186523788, guid: cde0f13988b77884e882f4f653743b43, type: 3}
       propertyPath: m_Name
       value: Rock3 (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3359895419186523788, guid: cde0f13988b77884e882f4f653743b43, type: 3}
-      propertyPath: m_TagString
-      value: Pared
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cde0f13988b77884e882f4f653743b43, type: 3}
@@ -32272,10 +31857,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock3 (6)
       objectReference: {fileID: 0}
-    - target: {fileID: 3359895419186523788, guid: cde0f13988b77884e882f4f653743b43, type: 3}
-      propertyPath: m_TagString
-      value: Pared
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cde0f13988b77884e882f4f653743b43, type: 3}
 --- !u!1001 &885245872
@@ -32412,10 +31993,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (118)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -32827,10 +32404,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (183)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -32970,10 +32543,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (158)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -33349,10 +32918,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock2 (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 3976255680401175019, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
-      propertyPath: m_TagString
-      value: Pared
-      objectReference: {fileID: 0}
     - target: {fileID: 4019750004420078306, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -33553,10 +33118,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (20)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -33684,10 +33245,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (59)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -34173,10 +33730,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (273)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -34253,10 +33806,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (285)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -34327,10 +33876,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -34544,10 +34089,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (247)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -34629,10 +34170,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (83)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -34698,10 +34235,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (223)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -34904,8 +34437,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.24206586, y: 0, z: 0, w: 0.97025985}
-  m_LocalPosition: {x: 245, y: 3.63, z: 11.6}
+  m_LocalRotation: {x: 0.24206461, y: -0, z: -0, w: 0.9702602}
+  m_LocalPosition: {x: -3.38, y: 3.63, z: -3.79}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -34927,9 +34460,7 @@ MonoBehaviour:
   sensibilidad: 5
   invertirY: 0
   distancia: 5
-  distanciaColision: 1
-  maxYAngle: 80
-  minYAngle: 0
+  distanciaColision: 4
 --- !u!1001 &965567426
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35063,10 +34594,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (261)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -35400,10 +34927,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (38)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -35864,10 +35387,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (32)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -36131,10 +35650,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (282)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -36206,10 +35721,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (11)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -36276,10 +35787,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (125)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -36345,10 +35852,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (229)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -36471,10 +35974,6 @@ PrefabInstance:
     - target: {fileID: 3359895419186523788, guid: cde0f13988b77884e882f4f653743b43, type: 3}
       propertyPath: m_Name
       value: Rock3 (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3359895419186523788, guid: cde0f13988b77884e882f4f653743b43, type: 3}
-      propertyPath: m_TagString
-      value: Pared
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cde0f13988b77884e882f4f653743b43, type: 3}
@@ -36939,10 +36438,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: TriggerZone
       objectReference: {fileID: 0}
-    - target: {fileID: 5277862893401613, guid: bdceca95b1cb502448d5a7a86e00e3ee, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bdceca95b1cb502448d5a7a86e00e3ee, type: 3}
 --- !u!4 &1010650389 stripped
@@ -37096,10 +36591,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (210)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -37457,10 +36948,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (74)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -37729,10 +37216,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (174)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -37798,10 +37281,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (243)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -38403,10 +37882,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (236)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -38591,10 +38066,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock3 (20)
       objectReference: {fileID: 0}
-    - target: {fileID: 3359895419186523788, guid: cde0f13988b77884e882f4f653743b43, type: 3}
-      propertyPath: m_TagString
-      value: Pared
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cde0f13988b77884e882f4f653743b43, type: 3}
 --- !u!1001 &1051218281
@@ -38741,10 +38212,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1774550500}
     m_Modifications:
-    - target: {fileID: 4751793403203854024, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 8c597109a544ac34da37fbfc54c0e49e, type: 2}
     - target: {fileID: 5500685911253824480, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
       propertyPath: m_Name
       value: ParedTileable (1)
@@ -38876,10 +38343,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1774550500}
     m_Modifications:
-    - target: {fileID: 4751793403203854024, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 8c597109a544ac34da37fbfc54c0e49e, type: 2}
     - target: {fileID: 5500685911253824480, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
       propertyPath: m_Name
       value: ParedTileable (30)
@@ -38952,10 +38415,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (248)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -39243,10 +38702,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (249)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -39950,10 +39405,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (141)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -40019,10 +39470,6 @@ PrefabInstance:
     - target: {fileID: 3976255680401175019, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
       propertyPath: m_Name
       value: Rock2 (12)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3976255680401175019, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
-      propertyPath: m_TagString
-      value: Pared
       objectReference: {fileID: 0}
     - target: {fileID: 4019750004420078306, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
       propertyPath: m_RootOrder
@@ -40092,10 +39539,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (225)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -40489,10 +39932,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (175)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -40765,10 +40204,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (207)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -40895,10 +40330,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (234)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -41159,10 +40590,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (14)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -41657,10 +41084,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (28)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -42096,10 +41519,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1774550500}
     m_Modifications:
-    - target: {fileID: 4751793403203854024, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 8c597109a544ac34da37fbfc54c0e49e, type: 2}
     - target: {fileID: 5500685911253824480, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
       propertyPath: m_Name
       value: ParedTileable (29)
@@ -42235,10 +41654,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1774550500}
     m_Modifications:
-    - target: {fileID: 4751793403203854024, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 8c597109a544ac34da37fbfc54c0e49e, type: 2}
     - target: {fileID: 5500685911253824480, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
       propertyPath: m_Name
       value: ParedTileable (2)
@@ -42311,10 +41726,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -42688,10 +42099,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (132)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -43208,10 +42615,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (9)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -43277,10 +42680,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (113)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -43410,10 +42809,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (127)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -43479,10 +42874,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (130)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -43620,10 +43011,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (40)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -43689,10 +43076,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (140)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -43857,10 +43240,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (116)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -44062,10 +43441,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (267)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -44128,10 +43503,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1774550500}
     m_Modifications:
-    - target: {fileID: 4751793403203854024, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 8c597109a544ac34da37fbfc54c0e49e, type: 2}
     - target: {fileID: 5500685911253824480, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
       propertyPath: m_Name
       value: ParedTileable (28)
@@ -44351,10 +43722,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (35)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -44702,10 +44069,6 @@ PrefabInstance:
       propertyPath: m_Center.z
       value: 8.448752
       objectReference: {fileID: 0}
-    - target: {fileID: 4751793403203854024, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 8c597109a544ac34da37fbfc54c0e49e, type: 2}
     - target: {fileID: 5500685911253824480, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
       propertyPath: m_Name
       value: ParedTileable (24)
@@ -44951,10 +44314,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (46)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -45020,10 +44379,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (171)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -45359,10 +44714,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (89)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -45425,10 +44776,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1774550500}
     m_Modifications:
-    - target: {fileID: 4751793403203854024, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 8c597109a544ac34da37fbfc54c0e49e, type: 2}
     - target: {fileID: 5500685911253824480, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
       propertyPath: m_Name
       value: ParedTileable (32)
@@ -45501,10 +44848,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (194)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -45643,10 +44986,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (64)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -45714,10 +45053,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1774550500}
     m_Modifications:
-    - target: {fileID: 4751793403203854024, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 8c597109a544ac34da37fbfc54c0e49e, type: 2}
     - target: {fileID: 5500685911253824480, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
       propertyPath: m_Name
       value: ParedTileable (12)
@@ -45979,10 +45314,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (34)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -46303,10 +45634,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (143)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -46428,10 +45755,6 @@ PrefabInstance:
     - target: {fileID: 3359895419186523788, guid: cde0f13988b77884e882f4f653743b43, type: 3}
       propertyPath: m_Name
       value: Rock3 (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3359895419186523788, guid: cde0f13988b77884e882f4f653743b43, type: 3}
-      propertyPath: m_TagString
-      value: Pared
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cde0f13988b77884e882f4f653743b43, type: 3}
@@ -47378,10 +46701,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (224)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -47447,10 +46766,6 @@ PrefabInstance:
     - target: {fileID: 3976255680401175019, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
       propertyPath: m_Name
       value: Rock2 (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3976255680401175019, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
-      propertyPath: m_TagString
-      value: Pared
       objectReference: {fileID: 0}
     - target: {fileID: 4019750004420078306, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
       propertyPath: m_RootOrder
@@ -47652,10 +46967,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (50)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -47854,10 +47165,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock2 (10)
       objectReference: {fileID: 0}
-    - target: {fileID: 3976255680401175019, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
-      propertyPath: m_TagString
-      value: Pared
-      objectReference: {fileID: 0}
     - target: {fileID: 4019750004420078306, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
       propertyPath: m_RootOrder
       value: 30
@@ -47926,10 +47233,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (121)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -48349,10 +47652,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (238)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -48480,10 +47779,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (256)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -48644,10 +47939,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -48965,10 +48256,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (91)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -49035,10 +48322,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (70)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -49101,10 +48384,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1774550500}
     m_Modifications:
-    - target: {fileID: 4751793403203854024, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 8c597109a544ac34da37fbfc54c0e49e, type: 2}
     - target: {fileID: 5500685911253824480, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
       propertyPath: m_Name
       value: ParedTileable (25)
@@ -49318,10 +48597,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1774550500}
     m_Modifications:
-    - target: {fileID: 4751793403203854024, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 8c597109a544ac34da37fbfc54c0e49e, type: 2}
     - target: {fileID: 5500685911253824480, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
       propertyPath: m_Name
       value: ParedTileable (15)
@@ -49394,10 +48669,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (245)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -50383,10 +49654,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (67)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -50513,10 +49780,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (231)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -50652,10 +49915,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (137)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -50796,10 +50055,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (120)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -51409,10 +50664,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -51478,10 +50729,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (278)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -51550,10 +50797,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1774550500}
     m_Modifications:
-    - target: {fileID: 4751793403203854024, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 8c597109a544ac34da37fbfc54c0e49e, type: 2}
     - target: {fileID: 5500685911253824480, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
       propertyPath: m_Name
       value: ParedTileable (23)
@@ -51893,7 +51136,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -2869254575058543250, guid: 1ed2224d97104da41b38b7d5b9a2e6d3, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3022119488810367877, guid: 1ed2224d97104da41b38b7d5b9a2e6d3, type: 3}
       propertyPath: m_Name
@@ -52091,10 +51334,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (60)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -52160,10 +51399,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (47)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -52437,7 +51672,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1373397784
 Transform:
   m_ObjectHideFlags: 0
@@ -52796,10 +52031,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock3 (17)
       objectReference: {fileID: 0}
-    - target: {fileID: 3359895419186523788, guid: cde0f13988b77884e882f4f653743b43, type: 3}
-      propertyPath: m_TagString
-      value: Pared
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cde0f13988b77884e882f4f653743b43, type: 3}
 --- !u!1001 &1374751873
@@ -52812,10 +52043,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -52882,10 +52109,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (260)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -53551,10 +52774,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (51)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -53823,10 +53042,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (221)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -53892,10 +53107,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (71)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -54093,10 +53304,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (154)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -54494,10 +53701,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (266)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -55204,10 +54407,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (52)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -55349,10 +54548,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1774550500}
     m_Modifications:
-    - target: {fileID: 4751793403203854024, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 8c597109a544ac34da37fbfc54c0e49e, type: 2}
     - target: {fileID: 5500685911253824480, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
       propertyPath: m_Name
       value: ParedTileable (18)
@@ -55425,10 +54620,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (206)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -55688,10 +54879,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock3 (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 3359895419186523788, guid: cde0f13988b77884e882f4f653743b43, type: 3}
-      propertyPath: m_TagString
-      value: Pared
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cde0f13988b77884e882f4f653743b43, type: 3}
 --- !u!4 &1456221751 stripped
@@ -55740,103 +54927,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.236292, y: 8.272598, z: 4.23629}
   m_Center: {x: 0.00000035762787, y: -0.00000071525574, z: 0}
---- !u!1 &1462424065
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1462424069}
-  - component: {fileID: 1462424068}
-  - component: {fileID: 1462424067}
-  - component: {fileID: 1462424066}
-  m_Layer: 0
-  m_Name: Cube
-  m_TagString: Piso
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!65 &1462424066
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1462424065}
-  m_Material: {fileID: 13400000, guid: c6da12cbaf2e97c43a981244144c4d73, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1462424067
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1462424065}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1462424068
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1462424065}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1462424069
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1462424065}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 218.3, y: -16.3, z: 20}
-  m_LocalScale: {x: 174.54227, y: 1, z: 152.9238}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 40
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1463897200
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55919,10 +55009,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (87)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -56323,10 +55409,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock3 (18)
       objectReference: {fileID: 0}
-    - target: {fileID: 3359895419186523788, guid: cde0f13988b77884e882f4f653743b43, type: 3}
-      propertyPath: m_TagString
-      value: Pared
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cde0f13988b77884e882f4f653743b43, type: 3}
 --- !u!1001 &1475732856
@@ -56339,10 +55421,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (148)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -56533,10 +55611,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (222)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -56921,10 +55995,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (108)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -56992,10 +56062,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1774550500}
     m_Modifications:
-    - target: {fileID: 4751793403203854024, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 8c597109a544ac34da37fbfc54c0e49e, type: 2}
     - target: {fileID: 5500685911253824480, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
       propertyPath: m_Name
       value: ParedTileable (26)
@@ -57152,10 +56218,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (33)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -57222,10 +56284,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (128)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -57291,10 +56349,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (192)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -57484,10 +56538,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock3 (11)
       objectReference: {fileID: 0}
-    - target: {fileID: 3359895419186523788, guid: cde0f13988b77884e882f4f653743b43, type: 3}
-      propertyPath: m_TagString
-      value: Pared
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cde0f13988b77884e882f4f653743b43, type: 3}
 --- !u!1001 &1506032317
@@ -57500,10 +56550,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (54)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -57570,10 +56616,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (244)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -57847,10 +56889,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (90)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -57915,7 +56953,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1841435643703639363, guid: e497889ad01a1ef408b4b61500374177, type: 3}
       propertyPath: gravity
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 1841435643703639363, guid: e497889ad01a1ef408b4b61500374177, type: 3}
       propertyPath: jumpForce
@@ -57935,7 +56973,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1841435643703639365, guid: e497889ad01a1ef408b4b61500374177, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 229.11
+      value: 231.59
       objectReference: {fileID: 0}
     - target: {fileID: 1841435643703639365, guid: e497889ad01a1ef408b4b61500374177, type: 3}
       propertyPath: m_LocalPosition.y
@@ -57943,7 +56981,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1841435643703639365, guid: e497889ad01a1ef408b4b61500374177, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 12.120347
+      value: 11.54
       objectReference: {fileID: 0}
     - target: {fileID: 1841435643703639365, guid: e497889ad01a1ef408b4b61500374177, type: 3}
       propertyPath: m_LocalRotation.w
@@ -57983,7 +57021,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1841435643703639369, guid: e497889ad01a1ef408b4b61500374177, type: 3}
       propertyPath: velocidad
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1841435643703639369, guid: e497889ad01a1ef408b4b61500374177, type: 3}
       propertyPath: velocidadRotacionX
@@ -58443,10 +57481,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (162)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -58574,10 +57608,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (200)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -58942,10 +57972,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (205)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -59011,10 +58037,6 @@ PrefabInstance:
     - target: {fileID: 3976255680401175019, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
       propertyPath: m_Name
       value: Rock2 (9)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3976255680401175019, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
-      propertyPath: m_TagString
-      value: Pared
       objectReference: {fileID: 0}
     - target: {fileID: 4019750004420078306, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
       propertyPath: m_RootOrder
@@ -59084,10 +58106,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (275)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -59278,10 +58296,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1774550500}
     m_Modifications:
-    - target: {fileID: 4751793403203854024, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 8c597109a544ac34da37fbfc54c0e49e, type: 2}
     - target: {fileID: 5500685911253824480, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
       propertyPath: m_Name
       value: ParedTileable (5)
@@ -59679,10 +58693,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (172)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -59830,10 +58840,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (227)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -59918,10 +58924,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (157)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -59987,10 +58989,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (100)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -60288,10 +59286,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (155)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -60639,10 +59633,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (147)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -60708,10 +59698,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (228)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -61197,10 +60183,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (88)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -61266,10 +60248,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (13)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -61487,10 +60465,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (213)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -61670,10 +60644,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (19)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -61739,10 +60709,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (17)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -62114,10 +61080,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (110)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -62320,10 +61282,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1774550500}
     m_Modifications:
-    - target: {fileID: 4751793403203854024, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 8c597109a544ac34da37fbfc54c0e49e, type: 2}
     - target: {fileID: 5500685911253824480, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
       propertyPath: m_Name
       value: ParedTileable (20)
@@ -62530,10 +61488,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (218)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -62737,10 +61691,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (189)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -62811,10 +61761,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (126)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -63071,10 +62017,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (259)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -63204,10 +62146,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1774550500}
     m_Modifications:
-    - target: {fileID: 4751793403203854024, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 8c597109a544ac34da37fbfc54c0e49e, type: 2}
     - target: {fileID: 5500685911253824480, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
       propertyPath: m_Name
       value: ParedTileable (11)
@@ -63782,10 +62720,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (180)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -64099,10 +63033,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock4
       objectReference: {fileID: 0}
-    - target: {fileID: 2032669090717919002, guid: d2686524d9254a4428b1c47b397be3e9, type: 3}
-      propertyPath: m_TagString
-      value: Pared
-      objectReference: {fileID: 0}
     - target: {fileID: 2894535388041165059, guid: d2686524d9254a4428b1c47b397be3e9, type: 3}
       propertyPath: m_RootOrder
       value: 44
@@ -64270,10 +63200,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (80)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -64345,10 +63271,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (22)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -64414,10 +63336,6 @@ PrefabInstance:
     - target: {fileID: 3976255680401175019, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
       propertyPath: m_Name
       value: Rock2 (11)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3976255680401175019, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
-      propertyPath: m_TagString
-      value: Pared
       objectReference: {fileID: 0}
     - target: {fileID: 4019750004420078306, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
       propertyPath: m_RootOrder
@@ -64561,10 +63479,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (233)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -65233,10 +64147,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (142)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -65368,10 +64278,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (49)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -65508,10 +64414,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (160)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -65577,10 +64479,6 @@ PrefabInstance:
     - target: {fileID: 3976255680401175019, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
       propertyPath: m_Name
       value: Rock2 (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3976255680401175019, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
-      propertyPath: m_TagString
-      value: Pared
       objectReference: {fileID: 0}
     - target: {fileID: 4019750004420078306, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
       propertyPath: m_RootOrder
@@ -65650,10 +64548,6 @@ PrefabInstance:
     - target: {fileID: 3976255680401175019, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
       propertyPath: m_Name
       value: Rock2 (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3976255680401175019, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
-      propertyPath: m_TagString
-      value: Pared
       objectReference: {fileID: 0}
     - target: {fileID: 4019750004420078306, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
       propertyPath: m_RootOrder
@@ -65796,10 +64690,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (212)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -66199,10 +65089,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (93)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -66397,10 +65283,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (135)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -66528,10 +65410,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (16)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -66597,10 +65475,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (170)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -66971,10 +65845,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (105)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -67173,10 +66043,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (208)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -67309,10 +66175,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1774550500}
     m_Modifications:
-    - target: {fileID: 4751793403203854024, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 8c597109a544ac34da37fbfc54c0e49e, type: 2}
     - target: {fileID: 5500685911253824480, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
       propertyPath: m_Name
       value: ParedTileable (13)
@@ -67704,10 +66566,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock3 (9)
       objectReference: {fileID: 0}
-    - target: {fileID: 3359895419186523788, guid: cde0f13988b77884e882f4f653743b43, type: 3}
-      propertyPath: m_TagString
-      value: Pared
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cde0f13988b77884e882f4f653743b43, type: 3}
 --- !u!1001 &1756963695
@@ -67906,10 +66764,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (25)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -68078,10 +66932,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (286)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -68601,10 +67451,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (230)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -68737,10 +67583,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (284)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -68867,10 +67709,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (82)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -69269,10 +68107,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (10)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -69338,10 +68172,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (42)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -69489,10 +68319,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (272)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -69628,10 +68454,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (94)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -69697,10 +68519,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (220)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -70085,10 +68903,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (61)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -70154,10 +68968,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (281)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -70428,10 +69238,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (139)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -70715,10 +69521,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (63)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -70784,10 +69586,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (235)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -71269,10 +70067,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (56)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -71488,10 +70282,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1774550500}
     m_Modifications:
-    - target: {fileID: 4751793403203854024, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 8c597109a544ac34da37fbfc54c0e49e, type: 2}
     - target: {fileID: 5500685911253824480, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
       propertyPath: m_Name
       value: ParedTileable (19)
@@ -71634,10 +70424,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (185)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -71840,10 +70626,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (191)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -71998,10 +70780,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (253)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -72160,10 +70938,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (164)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -72592,10 +71366,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1774550500}
     m_Modifications:
-    - target: {fileID: 4751793403203854024, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 8c597109a544ac34da37fbfc54c0e49e, type: 2}
     - target: {fileID: 5500685911253824480, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
       propertyPath: m_Name
       value: ParedTileable (16)
@@ -72668,10 +71438,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (239)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -72932,10 +71698,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (203)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -73135,10 +71897,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (36)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -73265,10 +72023,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (232)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -73634,10 +72388,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (106)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -73703,10 +72453,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (279)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -73844,10 +72590,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (251)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -74140,10 +72882,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (112)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -74667,10 +73405,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (29)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -75145,10 +73879,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock2 (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 3976255680401175019, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
-      propertyPath: m_TagString
-      value: Pared
-      objectReference: {fileID: 0}
     - target: {fileID: 4019750004420078306, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
       propertyPath: m_RootOrder
       value: 24
@@ -75562,10 +74292,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (119)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -75818,10 +74544,6 @@ PrefabInstance:
     - target: {fileID: 3359895419186523788, guid: cde0f13988b77884e882f4f653743b43, type: 3}
       propertyPath: m_Name
       value: Rock3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3359895419186523788, guid: cde0f13988b77884e882f4f653743b43, type: 3}
-      propertyPath: m_TagString
-      value: Pared
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cde0f13988b77884e882f4f653743b43, type: 3}
@@ -76091,10 +74813,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1774550500}
     m_Modifications:
-    - target: {fileID: 4751793403203854024, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 8c597109a544ac34da37fbfc54c0e49e, type: 2}
     - target: {fileID: 5500685911253824480, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
       propertyPath: m_Name
       value: ParedTileable (27)
@@ -76429,10 +75147,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (163)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -76498,10 +75212,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (144)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -77328,10 +76038,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (190)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -77397,10 +76103,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (258)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -77529,10 +76231,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (73)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -77660,10 +76358,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (152)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -77867,10 +76561,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (165)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -77936,10 +76626,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (102)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -78007,10 +76693,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (85)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -78077,10 +76759,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (146)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -78143,10 +76821,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1774550500}
     m_Modifications:
-    - target: {fileID: 4751793403203854024, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 8c597109a544ac34da37fbfc54c0e49e, type: 2}
     - target: {fileID: 5500685911253824480, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
       propertyPath: m_Name
       value: ParedTileable (3)
@@ -78227,10 +76901,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (68)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -78658,6 +77328,31 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6196097439766692215, guid: 71236ca128166394a80d0f65ad515a29, type: 3}
   m_PrefabInstance: {fileID: 2025540300}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2025931871 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2481963106819450079, guid: 8048d5fdcefd9424a80fdfd36ccecdd4, type: 3}
+  m_PrefabInstance: {fileID: 139189674}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2025931875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025931871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f21615f92f1f3f4abd19413f8f117d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  time: 0
+  waitTime: 0
+  findTag: 1
+  tagFind: BarrelDestroy
+  findGameObject: 0
+  gameObjectFind: {fileID: 0}
+  keyPressed: 0
+  keyCheck: 32
 --- !u!1001 &2027519226
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -79051,10 +77746,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (76)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -79665,10 +78356,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock2 (14)
       objectReference: {fileID: 0}
-    - target: {fileID: 3976255680401175019, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
-      propertyPath: m_TagString
-      value: Pared
-      objectReference: {fileID: 0}
     - target: {fileID: 4019750004420078306, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
       propertyPath: m_RootOrder
       value: 34
@@ -80113,22 +78800,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4001490592457194926, guid: 89209a71f35aa834b84c34e91f2283d3, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 8c597109a544ac34da37fbfc54c0e49e, type: 2}
     - target: {fileID: 7011882199522339713, guid: 89209a71f35aa834b84c34e91f2283d3, type: 3}
       propertyPath: m_Name
       value: Puente Piedra
       objectReference: {fileID: 0}
-    - target: {fileID: 7808693162919080725, guid: 89209a71f35aa834b84c34e91f2283d3, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 8c597109a544ac34da37fbfc54c0e49e, type: 2}
-    - target: {fileID: 8419656650673991913, guid: 89209a71f35aa834b84c34e91f2283d3, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 8c597109a544ac34da37fbfc54c0e49e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 89209a71f35aa834b84c34e91f2283d3, type: 3}
 --- !u!1001 &2068659996
@@ -80141,10 +78816,6 @@ PrefabInstance:
     - target: {fileID: 3976255680401175019, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
       propertyPath: m_Name
       value: Rock2 (13)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3976255680401175019, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
-      propertyPath: m_TagString
-      value: Pared
       objectReference: {fileID: 0}
     - target: {fileID: 4019750004420078306, guid: 6ff20bd8aa8fbb14ea1890c070fa75b5, type: 3}
       propertyPath: m_RootOrder
@@ -80214,10 +78885,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (252)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -80416,10 +79083,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (122)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -80485,10 +79148,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (181)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -80762,10 +79421,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (96)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -80991,10 +79646,6 @@ PrefabInstance:
     - target: {fileID: 2032669090717919002, guid: d2686524d9254a4428b1c47b397be3e9, type: 3}
       propertyPath: m_Name
       value: Rock4 (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2032669090717919002, guid: d2686524d9254a4428b1c47b397be3e9, type: 3}
-      propertyPath: m_TagString
-      value: Pared
       objectReference: {fileID: 0}
     - target: {fileID: 2894535388041165059, guid: d2686524d9254a4428b1c47b397be3e9, type: 3}
       propertyPath: m_RootOrder
@@ -81431,7 +80082,7 @@ Transform:
   - {fileID: 1648117637}
   - {fileID: 557418871}
   m_Father: {fileID: 0}
-  m_RootOrder: 41
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2107079452
 PrefabInstance:
@@ -81443,10 +80094,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (241)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -81811,10 +80458,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -81881,10 +80524,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piso (107)
       objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
-      objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -81950,10 +80589,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (240)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled
@@ -82961,10 +81596,6 @@ PrefabInstance:
     - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Name
       value: Piso (198)
-      objectReference: {fileID: 0}
-    - target: {fileID: 716026972899117767, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
-      propertyPath: m_TagString
-      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1086022324750509283, guid: 70e2ab41ed02ee947801622fabbebc49, type: 3}
       propertyPath: m_Enabled

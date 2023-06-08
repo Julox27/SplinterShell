@@ -118,7 +118,7 @@ MonoBehaviour:
   yaLanzoProyectil: 0
   fuerzaLanzamiento: 30
   jumpForce: 40
-  gravity: 10
+  gravity: 30
   meshR: {fileID: 0}
   capColl: {fileID: 0}
   rb: {fileID: 0}
