@@ -10,8 +10,9 @@ TagManager:
   - Nucleo
   - lava
   - Interact
+  - trampolin
   - BarrelDestroy
-  - Interactive
+  - Piso
   layers:
   - Default
   - TransparentFX

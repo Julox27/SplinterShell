@@ -7116,19 +7116,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cd7cb358013f289439473221b2cc3e6c, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.98670506
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cd7cb358013f289439473221b2cc3e6c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cd7cb358013f289439473221b2cc3e6c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.1625214
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cd7cb358013f289439473221b2cc3e6c, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cd7cb358013f289439473221b2cc3e6c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -7136,7 +7136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cd7cb358013f289439473221b2cc3e6c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -18.707
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cd7cb358013f289439473221b2cc3e6c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -9345,6 +9345,8 @@ MonoBehaviour:
   invertirY: 0
   distancia: 5
   distanciaColision: 3
+  maxYAngle: 80
+  minYAngle: 0
 --- !u!4 &1233091470 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 496963877340898387, guid: 7ea59fc31e41e4b4db60c17d59e0e292, type: 3}
