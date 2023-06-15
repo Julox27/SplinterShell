@@ -9,7 +9,9 @@ public class Player : MonoBehaviour
     public float jumpForce;
     public float gravity;
     private bool isOnFloor;
-    
+    public bool isInsideCaparazon = false;
+    private Collider playerCollider;
+
 
     [HideInInspector] public MeshRenderer meshR;
     [HideInInspector] public CapsuleCollider capColl;
@@ -22,7 +24,8 @@ public class Player : MonoBehaviour
         capColl = GetComponent<CapsuleCollider>();
         rb = GetComponent<Rigidbody>();
         Physics.gravity = new Vector3(0, -gravity, 0);
-       
+        playerCollider = GetComponent<Collider>();
+
     }
 
     private void Update()
@@ -51,6 +54,13 @@ public class Player : MonoBehaviour
             else
             {
                 GameManager.instance.StopSlide();
+                isInsideCaparazon = false;
+                rb.isKinematic = false;
+
+                foreach (Transform child in transform)
+                {
+                    child.gameObject.SetActive(true);
+                }
             }
         }
 
@@ -97,6 +107,13 @@ public class Player : MonoBehaviour
         rbProyectil.AddForce(direccion * fuerzaLanzamiento, ForceMode.Impulse);
         GameManager.instance.Deslizandose = true;
         yaLanzoProyectil = true;
+        isInsideCaparazon = true;
+        rb.isKinematic = true;
+
+        foreach (Transform child in transform)
+        {
+            child.gameObject.SetActive(false);
+        }
     }
 
     public bool GetIsOnFloor()
@@ -117,6 +134,10 @@ public class Player : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
+    private void FixedUpdate()
+    {
+        // Activar/desactivar el collider del jugador según si está dentro del caparazón o no
+        playerCollider.enabled = !isInsideCaparazon;
+    }
 
-    
 }
