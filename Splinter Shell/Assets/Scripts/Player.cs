@@ -9,6 +9,12 @@ public class Player : MonoBehaviour
     public float jumpForce;
     public float gravity;
     private bool isOnFloor;
+<<<<<<< Updated upstream
+=======
+    public bool isInsideCaparazon = false;
+    private Collider playerCollider;
+
+>>>>>>> Stashed changes
 
     [HideInInspector] public MeshRenderer meshR;
     [HideInInspector] public CapsuleCollider capColl;
@@ -21,6 +27,11 @@ public class Player : MonoBehaviour
         capColl = GetComponent<CapsuleCollider>();
         rb = GetComponent<Rigidbody>();
         Physics.gravity = new Vector3(0, -gravity, 0);
+<<<<<<< Updated upstream
+=======
+        
+       
+>>>>>>> Stashed changes
     }
 
     private void Update()
@@ -49,6 +60,14 @@ public class Player : MonoBehaviour
             else
             {
                 GameManager.instance.StopSlide();
+                isInsideCaparazon = true; 
+                rb.isKinematic = false;
+                rb.detectCollisions = true;
+
+                foreach (Transform child in transform)
+                {
+                    child.gameObject.SetActive(true);
+                }
             }
         }
 
@@ -95,6 +114,17 @@ public class Player : MonoBehaviour
         rbProyectil.AddForce(direccion * fuerzaLanzamiento, ForceMode.Impulse);
         GameManager.instance.Deslizandose = true;
         yaLanzoProyectil = true;
+        
+            // Desactivar colisiones y objetos secundarios cuando se está dentro del caparazón
+            isInsideCaparazon = false;
+            rb.isKinematic = true;
+             rb.detectCollisions = false;
+
+        foreach (Transform child in transform)
+            {
+                child.gameObject.SetActive(false);
+            }
+        
     }
 
     public bool GetIsOnFloor()
@@ -115,4 +145,13 @@ public class Player : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
+<<<<<<< Updated upstream
+=======
+    private void FixedUpdate()
+    {
+        // Activar/desactivar el collider del jugador según si está dentro del caparazón o no
+        playerCollider.enabled = !isInsideCaparazon;
+    }
+
+>>>>>>> Stashed changes
 }

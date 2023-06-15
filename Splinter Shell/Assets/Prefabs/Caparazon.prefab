@@ -132,7 +132,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcefc73d6171dea4a91b33f6ca9704e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fuerzaDeDesaceleracion: 0
-  slideTimer: 0
   initialVelocity: {x: 0, y: 0, z: 0}
   minVelocity: 10

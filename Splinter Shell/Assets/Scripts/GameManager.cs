@@ -42,9 +42,7 @@ public class GameManager : MonoBehaviour
         player.transform.position = inWorldCaparazon.transform.position;
         Destroy(inWorldCaparazon.gameObject);
         player.yaLanzoProyectil = false;
-        player.meshR.enabled = true;
-        player.capColl.enabled = true;
-        player.rb.WakeUp();
+      
 
         // Obtén la dirección de la cámara sin tomar en cuenta la inclinación vertical
         Vector3 direccionCamara = Camera.main.transform.forward;

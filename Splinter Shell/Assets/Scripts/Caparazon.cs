@@ -52,6 +52,7 @@ public class Caparazon : MonoBehaviour
         {
             Bounce(collision.contacts[0].normal);
         }
+
     }
 
     private void Bounce(Vector3 collisionNormal)
@@ -63,15 +64,7 @@ public class Caparazon : MonoBehaviour
         rb.velocity = direccion * Mathf.Max(speed, minVelocity);
     }
 
-    private void Movement()
-    {
-        if (GameManager.instance.Deslizandose)
-        {
-            float movimientoHorizontal = Input.GetAxis("Horizontal");
-            transform.position += gameObject.transform.right * movimientoHorizontal * (velocidad / 2) * Time.deltaTime;
-        }
-        transform.position += direccion * velocidad * 2 * Time.deltaTime;
-    }
+    
 
 }
 
