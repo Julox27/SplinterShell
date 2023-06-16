@@ -9,6 +9,7 @@ public abstract class Interactuable : MonoBehaviour
     bool shellColission;
     protected bool hasInteracted; //Para que solo interactue una vez en una misma colision
     protected static KeyCode intButton = KeyCode.F;
+
     protected virtual void Update()
     {
         Debug.Log("El estado es " + isActive);
