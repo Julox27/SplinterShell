@@ -5,6 +5,7 @@ using UnityEngine;
 public class DestoyOnShellCollision : MonoBehaviour
 {
     private ParticleSystem particles;
+    public AudioClip destroy;
 
     private void Start()
     {
@@ -16,7 +17,7 @@ public class DestoyOnShellCollision : MonoBehaviour
         {
             particles.Play();
             Destroy(this.gameObject, particles.duration);
-            
+            AudioSource.PlayClipAtPoint(destroy, transform.position, 0.5f);
         }
     }
 }

@@ -241,6 +241,9 @@ MonoBehaviour:
   isActive: 0
   cooldown: 0
   initialState: 0
+  onCooldown: 0
+  interact: {fileID: 8300000, guid: 6643943ac45a3f4499214a0b78f1ba1b, type: 3}
+  timer: {fileID: 8300000, guid: 5021565b2b8431e419218aaa7e605cc6, type: 3}
 --- !u!1 &8110687957866609124
 GameObject:
   m_ObjectHideFlags: 0

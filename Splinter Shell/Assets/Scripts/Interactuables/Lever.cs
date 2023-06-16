@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Lever : Interactuable
 {
-    public AudioClip aucli;
+    public AudioClip interact;
     public Lever()
     {
         isActive = false;
@@ -13,6 +13,6 @@ public class Lever : Interactuable
     {
         isActive = !isActive;
         Debug.Log("Palanca");
-        AudioSource.PlayClipAtPoint(aucli, transform.position, 1);
+        AudioSource.PlayClipAtPoint(interact, transform.position, 1);
     }
 }
