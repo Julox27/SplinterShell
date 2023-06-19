@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class NucleoController : MonoBehaviour
 {
+    public GameObject plasmaExplosion;
+    public AudioClip destroy;
     public int vidaInicial = 1;
     public int vidaActual;
     void Start()
@@ -23,5 +25,7 @@ public class NucleoController : MonoBehaviour
         Torreta torreta = GameObject.Find("Torreta").GetComponent<Torreta>();
         torreta.NucleoDestruido();
         Destroy(gameObject);
+        Instantiate(plasmaExplosion, transform.position, transform.rotation);
+        AudioSource.PlayClipAtPoint(destroy, transform.position, 1);
     }
 }

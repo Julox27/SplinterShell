@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 8330564504532213598}
   - component: {fileID: 2806478850727864865}
   - component: {fileID: 2606096176817076574}
+  - component: {fileID: 3731062653897298467}
   m_Layer: 0
   m_Name: Interruptor_base
-  m_TagString: Untagged
+  m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83,6 +84,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3731062653897298467
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2050726718512611213}
+  m_Material: {fileID: 13400000, guid: 2a1a976b14f04a54fbd984a4d54acfc6, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6463598, y: 0.24722363, z: 1.0071731}
+  m_Center: {x: 0, y: -0.000015258789, z: 0}
 --- !u!1 &2791067450059738502
 GameObject:
   m_ObjectHideFlags: 0
@@ -323,7 +337,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isActive: 0
-  aucli: {fileID: 8300000, guid: 6643943ac45a3f4499214a0b78f1ba1b, type: 3}
+  interact: {fileID: 8300000, guid: 6643943ac45a3f4499214a0b78f1ba1b, type: 3}
 --- !u!82 &1699507449108091755
 AudioSource:
   m_ObjectHideFlags: 0

@@ -44,5 +44,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f4b13ce43bc66846bf22da5a661c3e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Caparazon: {fileID: 919132149155446097, guid: bbb28611f6782444aaa89c0a7e4fefbc, type: 3}
+  Caparazon: {fileID: 7573236834129448647, guid: 08419f0b0aef7a342bf628a88f42b425, type: 3}
   BalaTorreta: {fileID: 5739114048232639118, guid: 6208560755228dc49974a82b61c1a3ce, type: 3}

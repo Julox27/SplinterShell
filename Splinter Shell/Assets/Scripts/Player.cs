@@ -11,6 +11,7 @@ public class Player : MonoBehaviour
     private bool isOnFloor;
     public bool isInsideCaparazon = false;
     private Collider playerCollider;
+    public GameObject shell;
 
 
     [HideInInspector] public MeshRenderer meshR;
@@ -63,7 +64,14 @@ public class Player : MonoBehaviour
                 }
             }
         }
-
+        if (yaLanzoProyectil)
+        {
+            shell.SetActive(false);
+        }
+        else
+        {
+            shell.SetActive(true);
+        }
         if (Physics.Raycast(transform.position, -transform.up, 2f))
         {
             isOnFloor = true;
