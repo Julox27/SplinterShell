@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Torreta : MonoBehaviour
+public class Torreta : Enemy
 {
     [SerializeField] private float shootTimer = 1;
     public Transform bulletShooter;
@@ -10,6 +10,7 @@ public class Torreta : MonoBehaviour
     public int nucleosRestantes;
     public float distanciaDisparo = 10f;
     private GameObject player;
+    
     void Start()
     {
         nucleosRestantes = nucleosMaximos;
@@ -27,16 +28,16 @@ public class Torreta : MonoBehaviour
         {
             transform.rotation = Quaternion.LookRotation(GameManager.instance.player.transform.position - gameObject.transform.position);
         }
-        shootTimer -= Time.deltaTime;
+        speed -= Time.deltaTime;
         float distanciaAlJugador = Vector3.Distance(transform.position, player.transform.position);
         if (distanciaAlJugador <= distanciaDisparo)
         {
-            shootTimer -= Time.deltaTime;
+            speed -= Time.deltaTime;
 
-            if (shootTimer <= 0)
+            if (speed <= 0)
             {
                 Shoot();
-                shootTimer = 1f;
+                speed = 1f;
             }
         }
 

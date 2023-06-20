@@ -8546,6 +8546,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 129613310250afb4788a3da0647f6086, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0
+  detectionDistance: 0
+  isActive: 0
+  typeOfEnemy: 
   shootTimer: 1
   bulletShooter: {fileID: 91040345}
   nucleosMaximos: 3
@@ -14697,7 +14701,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1059384615670086992, guid: dbb05fa11b7e89d4c86da04960b8dc7d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 67.09
+      value: 69.45
       objectReference: {fileID: 0}
     - target: {fileID: 1059384615670086992, guid: dbb05fa11b7e89d4c86da04960b8dc7d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -37353,6 +37357,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 645956053}
     m_Modifications:
+    - target: {fileID: 1841435643703639363, guid: e497889ad01a1ef408b4b61500374177, type: 3}
+      propertyPath: shell
+      value: 
+      objectReference: {fileID: 7573236834129448647, guid: 08419f0b0aef7a342bf628a88f42b425, type: 3}
     - target: {fileID: 1841435643703639363, guid: e497889ad01a1ef408b4b61500374177, type: 3}
       propertyPath: gravity
       value: 30
