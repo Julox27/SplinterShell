@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3953400132334062063}
   - component: {fileID: 1854043159814108341}
   - component: {fileID: 2203463182163159642}
+  - component: {fileID: 6575220854410349924}
   m_Layer: 0
   m_Name: pasted__Piso5
   m_TagString: Untagged
@@ -83,3 +84,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6575220854410349924
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1737811335791567614}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.011102353, y: 0.0020668253, z: 0.06858156}
+  m_Center: {x: 0.0000000020954758, y: -5.8207655e-10, z: 0.000000027939677}
