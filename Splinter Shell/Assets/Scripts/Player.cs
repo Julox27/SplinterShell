@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
     public bool isInsideCaparazon = false;
     private Collider playerCollider;
     public GameObject shell;
+    
 
 
     [HideInInspector] public MeshRenderer meshR;
@@ -37,7 +38,7 @@ public class Player : MonoBehaviour
             {
                 Shoot();
             }
-            if (Input.GetKeyDown(KeyCode.Q))
+            if (Input.GetMouseButtonDown(1))
             {
                 Slide();
                 meshR.enabled = false;
@@ -45,25 +46,32 @@ public class Player : MonoBehaviour
                 rb.Sleep();
             }
         }
-        else if (Input.GetKeyDown(KeyCode.E))
+        else if (Input.GetMouseButtonDown(0))
         {
             if (GameManager.instance.Deslizandose == false)
             {
                 Destroy(GameManager.instance.inWorldCaparazon.gameObject);
                 yaLanzoProyectil = false;
             }
-            else
-            {
-                GameManager.instance.StopSlide();
-                isInsideCaparazon = false;
-                rb.isKinematic = false;
-
-                foreach (Transform child in transform)
-                {
-                    child.gameObject.SetActive(true);
-                }
-            }
         }
+        else if (Input.GetMouseButtonDown(1))
+            
+                if (GameManager.instance.Deslizandose == true)
+                {
+
+
+                    GameManager.instance.StopSlide();
+                    isInsideCaparazon = false;
+                    rb.isKinematic = false;
+
+                    foreach (Transform child in transform)
+                    {
+                        child.gameObject.SetActive(true);
+                    }
+                }
+            
+           
+        
         if (yaLanzoProyectil)
         {
             shell.SetActive(false);

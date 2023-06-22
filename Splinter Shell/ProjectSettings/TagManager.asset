@@ -12,6 +12,7 @@ TagManager:
   - Interact
   - BarrelDestroy
   - Interactive
+  - CheckPoint
   layers:
   - Default
   - TransparentFX
