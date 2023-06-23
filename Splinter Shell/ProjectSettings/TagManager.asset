@@ -13,6 +13,8 @@ TagManager:
   - BarrelDestroy
   - Interactive
   - CheckPoint
+  - trampolin
+  - Recuperacion
   layers:
   - Default
   - TransparentFX

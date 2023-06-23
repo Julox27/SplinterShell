@@ -11,13 +11,12 @@ public class Player : MonoBehaviour
     private bool isOnFloor;
     public bool isInsideCaparazon = false;
     private Collider playerCollider;
-    public GameObject shell;
-    
-
+    public GameObject shell;  
 
     [HideInInspector] public MeshRenderer meshR;
     [HideInInspector] public CapsuleCollider capColl;
     [HideInInspector] public Rigidbody rb;
+    [HideInInspector] public bool canSlide = true;
 
     private void Start()
     {
@@ -38,7 +37,7 @@ public class Player : MonoBehaviour
             {
                 Shoot();
             }
-            if (Input.GetMouseButtonDown(1))
+            if (Input.GetMouseButtonDown(1) && canSlide)
             {
                 Slide();
                 meshR.enabled = false;
@@ -83,6 +82,7 @@ public class Player : MonoBehaviour
         if (Physics.Raycast(transform.position, -transform.up, 2f))
         {
             isOnFloor = true;
+            canSlide = true;
 
             if (Input.GetKeyDown(KeyCode.Space))
             {
@@ -125,6 +125,7 @@ public class Player : MonoBehaviour
         yaLanzoProyectil = true;
         isInsideCaparazon = true;
         rb.isKinematic = true;
+        canSlide = false;
 
         foreach (Transform child in transform)
         {
@@ -150,6 +151,7 @@ public class Player : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
+
     private void FixedUpdate()
     {
         // Activar/desactivar el collider del jugador según si está dentro del caparazón o no

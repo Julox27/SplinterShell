@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 3240990581974555534}
   - component: {fileID: 6585441029089166049}
   - component: {fileID: 8277124570635883407}
+  - component: {fileID: -4044265846603741756}
   m_Layer: 0
   m_Name: pasted__Piso4
-  m_TagString: Untagged
+  m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83,3 +84,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &-4044265846603741756
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7187682982455351557}
+  m_Material: {fileID: 13400000, guid: 2a1a976b14f04a54fbd984a4d54acfc6, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01091029, y: 0.0026501128, z: 0.06482858}
+  m_Center: {x: 4.6566126e-10, y: 0, z: -0.000000001862645}

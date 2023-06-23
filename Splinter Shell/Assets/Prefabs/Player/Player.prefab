@@ -80,6 +80,7 @@ MonoBehaviour:
   jumpForce: 40
   gravity: 30
   isInsideCaparazon: 0
+  shell: {fileID: 4350929817655589222}
   meshR: {fileID: 0}
   capColl: {fileID: 0}
   rb: {fileID: 0}
