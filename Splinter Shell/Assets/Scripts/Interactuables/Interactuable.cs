@@ -12,7 +12,7 @@ public abstract class Interactuable : MonoBehaviour
 
     protected virtual void Update()
     {
-        Debug.Log("El estado es " + isActive);
+        // Debug.Log("El estado es " + isActive);
         // Si 1 o 2
         if (!hasInteracted && ((isNearby && Input.GetKeyDown(intButton)) || shellColission))
         {
