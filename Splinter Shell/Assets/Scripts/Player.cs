@@ -148,7 +148,7 @@ public class Player : MonoBehaviour
         if (collision.gameObject.CompareTag("lava"))
         {
 
-            Destroy(this.gameObject);
+            
         }
     }
 
