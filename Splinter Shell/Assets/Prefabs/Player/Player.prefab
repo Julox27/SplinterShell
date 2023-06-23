@@ -84,6 +84,7 @@ MonoBehaviour:
   meshR: {fileID: 0}
   capColl: {fileID: 0}
   rb: {fileID: 0}
+  canSlide: 1
 --- !u!114 &1841435643703639369
 MonoBehaviour:
   m_ObjectHideFlags: 0
