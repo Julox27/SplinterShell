@@ -14,7 +14,7 @@ public class MainMenu : MonoBehaviour
 
     public void PlayButton()
     {
-        SceneManager.LoadScene("EscenaDePrueba");
+        SceneManager.LoadScene("Nivel 1");
     }
 
     public void ExitButton()

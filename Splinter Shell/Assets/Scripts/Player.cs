@@ -5,13 +5,14 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public bool yaLanzoProyectil = false;
+    public bool mouseButton;
     public float fuerzaLanzamiento = 10f;
     public float jumpForce;
     public float gravity;
     private bool isOnFloor;
     public bool isInsideCaparazon = false;
     private Collider playerCollider;
-    public GameObject shell;  
+    public GameObject shell;
 
     [HideInInspector] public MeshRenderer meshR;
     [HideInInspector] public CapsuleCollider capColl;
@@ -54,23 +55,13 @@ public class Player : MonoBehaviour
             }
         }
         else if (Input.GetMouseButtonDown(1))
-            
-                if (GameManager.instance.Deslizandose == true)
-                {
+        {
+            if (GameManager.instance.Deslizandose == true)
+            {
+                PlayerActive();
+            }
+        }
 
-
-                    GameManager.instance.StopSlide();
-                    isInsideCaparazon = false;
-                    rb.isKinematic = false;
-
-                    foreach (Transform child in transform)
-                    {
-                        child.gameObject.SetActive(true);
-                    }
-                }
-            
-           
-        
         if (yaLanzoProyectil)
         {
             shell.SetActive(false);
@@ -126,11 +117,11 @@ public class Player : MonoBehaviour
         isInsideCaparazon = true;
         rb.isKinematic = true;
         canSlide = false;
-
         foreach (Transform child in transform)
         {
             child.gameObject.SetActive(false);
         }
+
     }
 
     public bool GetIsOnFloor()
@@ -148,14 +139,26 @@ public class Player : MonoBehaviour
         if (collision.gameObject.CompareTag("lava"))
         {
 
-            
+
         }
     }
+    public void PlayerActive()
+    {
+        if (GameManager.instance.Deslizandose == true)
+        {
+            GameManager.instance.StopSlide();
+            isInsideCaparazon = false;
+            rb.isKinematic = false;
 
+            foreach (Transform child in transform)
+            {
+                child.gameObject.SetActive(true);
+            }
+        }
+    }
     private void FixedUpdate()
     {
         // Activar/desactivar el collider del jugador según si está dentro del caparazón o no
         playerCollider.enabled = !isInsideCaparazon;
     }
-
 }

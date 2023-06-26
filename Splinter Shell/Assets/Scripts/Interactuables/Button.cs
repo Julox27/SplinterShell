@@ -6,7 +6,7 @@ public class Button : Interactuable
 {
     public int cooldown;
     public bool initialState;
-    public bool onCooldown = false;
+    bool onCooldown = false;
 
     public AudioClip interact;
     public AudioClip timer;

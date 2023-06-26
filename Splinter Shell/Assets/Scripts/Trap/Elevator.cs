@@ -6,10 +6,8 @@ public class Elevator : Trap
 {
     public Transform topPoint; // Punto más alto
     public Transform bottomPoint; // Punto más bajo
-    public float speed = 5f; // Velocidad de movimiento del ascensor
+   public float speed = 5f; // Velocidad de movimiento del ascensor
     float step;
-
-    private bool movingUp = true; // Variable para controlar la dirección del movimiento
 
     protected override void updateBehavior()
     {

@@ -8,12 +8,8 @@ public class Caparazon : MonoBehaviour
     private Vector3 direccion;
     private float velocidad = 5f;
 
-
-
-
     void Start()
     {
-
         rb = GetComponent<Rigidbody>();
         direccion = transform.forward;
     }
@@ -23,8 +19,6 @@ public class Caparazon : MonoBehaviour
     {
         lastFrameVelocity = rb.velocity;
         GameManager.instance.inWorldCaparazon = this;
-
-
 
     }
 

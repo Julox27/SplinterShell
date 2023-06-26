@@ -15,6 +15,7 @@ TagManager:
   - CheckPoint
   - trampolin
   - Recuperacion
+  - Rotation
   layers:
   - Default
   - TransparentFX

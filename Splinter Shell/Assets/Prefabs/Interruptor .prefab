@@ -185,12 +185,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2791067450059738502}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.00034169017, y: -0.84144783, z: 0.00000028747573}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.035247803, y: -0.07144594, z: 0.052978516}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 7729754590569387582}
+  m_Father: {fileID: 971011531006807745}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &523362010914794730
@@ -243,6 +243,38 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &7808201043834213380
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 971011531006807745}
+  m_Layer: 0
+  m_Name: Rotacion
+  m_TagString: Rotation
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &971011531006807745
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7808201043834213380}
+  m_LocalRotation: {x: 0, y: 0, z: -0.258819, w: 0.9659259}
+  m_LocalPosition: {x: -0.035583496, y: -0.77, z: -0.052978516}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5171322471150300071}
+  m_Father: {fileID: 7729754590569387582}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -30}
 --- !u!1 &9138828504434085931
 GameObject:
   m_ObjectHideFlags: 0
@@ -274,7 +306,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 5171322471150300071}
+  - {fileID: 971011531006807745}
   - {fileID: 8330564504532213598}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -306,7 +338,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isActive: 0
   interact: {fileID: 8300000, guid: 6643943ac45a3f4499214a0b78f1ba1b, type: 3}
-  luz: {fileID: 0}
+  rotatingObject: {fileID: 971011531006807745}
 --- !u!82 &1699507449108091755
 AudioSource:
   m_ObjectHideFlags: 0
