@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     [SerializeField] GameObject ControlsPanel;
+    [SerializeField] GameObject Buttons;
 
     private void Awake()
     {
@@ -25,10 +26,12 @@ public class MainMenu : MonoBehaviour
     public void ControlsButton()
     {
         ControlsPanel.SetActive(true);
+        Buttons.SetActive(false);
     }
 
     public void BackButton()
     {
         ControlsPanel.SetActive(false);
+        Buttons.SetActive(true);
     }
 }

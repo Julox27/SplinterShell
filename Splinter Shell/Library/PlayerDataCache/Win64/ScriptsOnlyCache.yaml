@@ -7,7 +7,6 @@ ScriptsOnlyBuild:
     - Caparazon
     - CheckPointManager
     - DestoyOnShellCollision
-    - Disc
     - Door
     - Elevator
     - EnemyGuardian
@@ -22,13 +21,9 @@ ScriptsOnlyBuild:
     - Recuperacion
     - RotationTranslationAnimation
     - SceneSwitcher
-    - Spikes
     - Torreta
     - TriggerActive
     - TriggerZone
-    Unity.ProBuilder.dll:
-    - UnityEngine.ProBuilder.ProBuilderMesh
-    - UnityEngine.ProBuilder.Shapes.ProBuilderShape
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -102,97 +97,6 @@ ScriptsOnlyBuild:
     fullTypeName: MainMenu
     methodName: BackButton
   sceneClasses:
-    Assets/Scenes/EscenaDePrueba.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 33
-      Script: {instanceID: 0}
-    - Class: 43
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 54
-      Script: {instanceID: 0}
-    - Class: 64
-      Script: {instanceID: 0}
-    - Class: 65
-      Script: {instanceID: 0}
-    - Class: 74
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
-    - Class: 91
-      Script: {instanceID: 0}
-    - Class: 95
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 111
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 1868}
-    - Class: 114
-      Script: {instanceID: 2286}
-    - Class: 114
-      Script: {instanceID: 2340}
-    - Class: 114
-      Script: {instanceID: 2754}
-    - Class: 114
-      Script: {instanceID: 3204}
-    - Class: 114
-      Script: {instanceID: 3832}
-    - Class: 114
-      Script: {instanceID: 3888}
-    - Class: 114
-      Script: {instanceID: 3956}
-    - Class: 114
-      Script: {instanceID: 4010}
-    - Class: 114
-      Script: {instanceID: 4032}
-    - Class: 114
-      Script: {instanceID: 4576}
-    - Class: 114
-      Script: {instanceID: 4928}
-    - Class: 114
-      Script: {instanceID: 4932}
-    - Class: 114
-      Script: {instanceID: 6104}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 134
-      Script: {instanceID: 0}
-    - Class: 135
-      Script: {instanceID: 0}
-    - Class: 136
-      Script: {instanceID: 0}
-    - Class: 137
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 198
-      Script: {instanceID: 0}
-    - Class: 199
-      Script: {instanceID: 0}
-    - Class: 850595691
-      Script: {instanceID: 0}
     Assets/Scenes/MainMenu.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -686,7 +590,7 @@ ScriptsOnlyBuild:
     className: PreferenceDictionary
   - hash:
       serializedVersion: 2
-      Hash: 979d749293807a37fa242b0f262b3629
+      Hash: 1ba697eb7bf947086d9db294d1f7a671
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MainMenu
@@ -1743,8 +1647,8 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
-  - Assets/Scenes/EscenaDePrueba.unity
   - Assets/Scenes/Nivel 1.unity
   - Assets/Scenes/Nivel 2.unity
   - Assets/Scenes/Nivel 3.unity
-  playerPath: E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Build/My project.exe
+  playerPath: E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell
+    Build/My project.exe

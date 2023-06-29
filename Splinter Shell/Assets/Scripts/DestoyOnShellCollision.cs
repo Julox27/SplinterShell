@@ -9,7 +9,7 @@ public class DestoyOnShellCollision : MonoBehaviour
 
     private void Start()
     {
-        particles = GetComponent<ParticleSystem>();
+        particles = GetComponentInChildren<ParticleSystem>(true);
     }
     private void OnCollisionEnter(Collision collision)
     {

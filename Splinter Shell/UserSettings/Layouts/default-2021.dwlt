@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 82
+  controlID: 167
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 432
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 291
     height: 701
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 72
+  controlID: 168
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 73
+  controlID: 169
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -380,25 +380,25 @@ MonoBehaviour:
     m_SceneHandles: 
     m_ShowAllHits: 0
     m_SkipHidden: 0
-    m_SearchArea: 1
+    m_SearchArea: 0
     m_Folders:
-    - Assets/TextMesh Pro/Resources/Fonts & Materials
+    - Assets
     m_Globs: []
     m_OriginalText: nivel
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/TextMesh Pro/Resources/Fonts & Materials
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\Carpetas\Da vinci\Programacion\Proyecto\SplinterShell\Splinter
     Shell
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 131}
-    m_SelectedIDs: 28740800
-    m_LastClickedID: 554024
-    m_ExpandedIDs: 00000000545e0000565e0000585e00005a5e00006e5e00002674080000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 111}
+    m_SelectedIDs: d4750000
+    m_LastClickedID: 30164
+    m_ExpandedIDs: 00000000d4750000d6750000d8750000da750000ea750000ee7500002276000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -426,7 +426,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000545e0000565e0000585e00005a5e0000
+    m_ExpandedIDs: 00000000d4750000d6750000d8750000da750000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -554,9 +554,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 365f0000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 7ad9f9ff08dbf9ff56dbf9ff82f5f9ffb009faffc61cfaff4e20faffee2dfaff94a7faffdcd3faff00f4faffe214fbffe237fbffc255fbff1e6ffbff4c77fbff967afbffd401fcfff624fcfff438fcff304dfcff9266fcffb47efcff3edafcff4adafcff88e7fcff08fcfcffa61bfdff6a32fdff4049fdff8652fdffb469fdff766cfdff0c8dfdff48a9fdff58befdff58d6fdff2008feff0e19feff022efeff8c44ffff304affffd658fffffaa4ffffecfaffff5655000022560000f48201008c850100f4870100088b01003e8f0100b49701001e410900309e0a005e9e0a00f2d90a000cda0a0038db0a0046db0a00fadc0a0044dd0a0012de0a0014e00a0082e00a00b8e00a00a8e20a00e2e30a00c0e90a00e6ec0a0024f10a0000f40a00e6f70a00beff0a0014010b002e010b005a020b0068020b00a6030b001c040b0066040b0034050b0036070b00a4070b00da070b00020b0b0094110b00ac4c0d00465b0d0096740d0074200e008c470e004c480e00
+      m_ExpandedIDs: 8060fdffd060fdfffe7afdff288ffdff34a2fdffe0affdff9ccbfdfffe32feff145dfeffaa88feff62b8feffbad1feff1637ffff6a88ffffea91ffff02beffffd4d1ffff06dfffffecfaffff845b0000f2ad00001e0301001a740100747c01009e4902005e4a020016ee0200e4f10200
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -838,9 +838,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 263.48828, y: -45.4352, z: 627.02515}
+    m_Target: {x: -153.41101, y: 10.709864, z: 4.2634754}
     speed: 2
-    m_Value: {x: 263.48828, y: -45.4352, z: 627.02515}
+    m_Value: {x: -153.41101, y: 10.709864, z: 4.2634754}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -887,13 +887,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.21124145, y: 0.13288374, z: -0.02713799, w: -0.9685324}
+    m_Target: {x: -0.016387524, y: 0.7053625, z: -0.013313698, w: -0.70934063}
     speed: 2
-    m_Value: {x: -0.21108735, y: 0.13426442, z: -0.027440112, w: -0.96781313}
+    m_Value: {x: -0.01746184, y: 0.7038737, z: -0.014338537, w: -0.70996577}
   m_Size:
-    m_Target: 1095.7234
+    m_Target: 145.09056
     speed: 2
-    m_Value: 1095.7234
+    m_Value: 140.60364
   m_Ortho:
     m_Target: 0
     speed: 2
