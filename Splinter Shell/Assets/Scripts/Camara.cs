@@ -12,8 +12,8 @@ public class Camara : MonoBehaviour
     private float rotacionX = 0.0f; // Rotacion horizontal de la camara
     private float rotacionY = 0.0f; // Rotacion vertical de la camara
     public float distanciaColision = 1f; // Distancia de colision para evitar que la camara atraviese objetos
-    public float maxYAngle = 80.0f; // El ángulo máximo hacia arriba
-    public float minYAngle = 0.0f; // El ángulo máximo hacia abajo
+    public float maxYAngle = 120.0f; // El ángulo máximo hacia arriba
+    public float minYAngle = -10f; // El ángulo máximo hacia abajo
 
 
     internal static Camera main;

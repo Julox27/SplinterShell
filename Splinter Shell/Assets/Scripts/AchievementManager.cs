@@ -15,6 +15,7 @@ public class AchievementManager : MonoBehaviour
 
     private void Start()
     {
+        achievementImage.gameObject.SetActive(false);
     }
 
     private void Update()
@@ -32,6 +33,7 @@ public class AchievementManager : MonoBehaviour
 
     public void ShowAchievement()
     {
+        achievementImage.gameObject.SetActive(true);
         if (!isAchievementActive)
         {
             isAchievementActive = true;

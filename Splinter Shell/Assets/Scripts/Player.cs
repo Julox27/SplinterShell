@@ -122,7 +122,6 @@ public class Player : MonoBehaviour
         {
             child.gameObject.SetActive(false);
         }
-
     }
 
     public bool GetIsOnFloor()

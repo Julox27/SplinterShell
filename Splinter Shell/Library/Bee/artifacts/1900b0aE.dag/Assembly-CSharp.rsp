@@ -364,6 +364,7 @@
 "Assets/Scripts/Interactuables/Lever.cs"
 "Assets/Scripts/InvisibleOnStart.cs"
 "Assets/Scripts/Lights.cs"
+"Assets/Scripts/MenuScripts/Final.cs"
 "Assets/Scripts/MenuScripts/MainMenu.cs"
 "Assets/Scripts/Movimiento.cs"
 "Assets/Scripts/NucleoController.cs"

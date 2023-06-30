@@ -1,568 +1,422 @@
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
 { "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 0, "tid": 1, "ts": 1688050815894049, "dur": 2111294, "ph": "X", "name": "Build Player", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1688050815894286, "dur": 13989, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1688050815908277, "dur": 35085, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1688050815943394, "dur": 1274127, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1688050817217523, "dur": 782386, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1688050817999911, "dur": 5431, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1688050818006077, "dur": 29, "ph": "X", "name": "", "args": {} },
-{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
-{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
-{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 35942, "tid": 1, "ts": 1688050817037117, "dur": 152196, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1688050817039215, "dur": 50999, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1688050817172927, "dur": 4673, "ph": "X", "name": "OutputData.Write", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1688050817177604, "dur": 11703, "ph": "X", "name": "Backend.Write", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1688050817178369, "dur": 10253, "ph": "X", "name": "JsonToString", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1688050817194095, "dur": 1335, "ph": "X", "name": "", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1688050817193257, "dur": 2201, "ph": "X", "name": "Write chrome-trace events", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1688050818006269, "dur": 501, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1688153617232363, "dur": 392668, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1688153617232393, "dur": 14204, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1688153617246599, "dur": 365095, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1688153617611696, "dur": 13334, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1688153617625427, "dur": 9, "ph": "X", "name": "", "args": {} },
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1688050817262398, "dur":1302, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1688050817263711, "dur":118, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1688050817263866, "dur":20, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1688050817263887, "dur":198, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1688050817264104, "dur":749, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1688050817264853, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1688050817883161, "dur":118, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1688050817883279, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1688050817883291, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1688050817883293, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1688050817883300, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1688050817883302, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1688050817883308, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1688050817883310, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1688050817883318, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1688050817883320, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1688050817883326, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1688050817883328, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1688050817883333, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1688050817883341, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1688050817883365, "dur":73765, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1688050817264827, "dur":71, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688050817264898, "dur":4219, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688050817269118, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1688050817269245, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688050817271075, "dur":3647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1688050817274770, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1688050817274890, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688050817275541, "dur":1787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1688050817277375, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":1, "ts":1688050817277469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688050817277476, "dur":4179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":1, "ts":1688050817281701, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688050817281796, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688050817282901, "dur":65292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688050817348246, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688050817348273, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688050817348281, "dur":4109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688050817352404, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688050817352420, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688050817352425, "dur":2479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688050817354918, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688050817354937, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688050817354945, "dur":2070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688050817357036, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688050817357054, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688050817357061, "dur":3200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688050817360276, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688050817360294, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688050817360300, "dur":4271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688050817364586, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688050817364606, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688050817364631, "dur":1595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688050817366240, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688050817366258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688050817366265, "dur":2916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688050817369195, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688050817369215, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688050817369221, "dur":4132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688050817373369, "dur":105230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688050817478604, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688050817478613, "dur":155895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688050817634530, "dur":66464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688050817700998, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688050817701007, "dur":21575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688050817722596, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688050817722615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688050817722638, "dur":1936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688050817724586, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688050817724624, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688050817724630, "dur":3587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":1, "ts":1688050817728230, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets3.resource" }}
-,{ "pid":12345, "tid":1, "ts":1688050817728245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688050817728251, "dur":743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets3.resource" }}
-,{ "pid":12345, "tid":1, "ts":1688050817729008, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets3.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1688050817729023, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688050817729028, "dur":8583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets3.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1688050817737633, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":1, "ts":1688050817737653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688050817737661, "dur":1450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":1, "ts":1688050817739132, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":1, "ts":1688050817739148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688050817739157, "dur":3495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":1, "ts":1688050817742676, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1688050817742695, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688050817742705, "dur":4875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1688050817747596, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":1, "ts":1688050817747615, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688050817747622, "dur":2156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":1, "ts":1688050817749792, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1688050817749806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688050817749812, "dur":60225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1688050817810058, "dur":562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":1, "ts":1688050817810624, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688050817810635, "dur":1152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":1, "ts":1688050817811800, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/resources.assets" }}
-,{ "pid":12345, "tid":1, "ts":1688050817811818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688050817811823, "dur":9426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/resources.assets" }}
-,{ "pid":12345, "tid":1, "ts":1688050817821263, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/level3" }}
-,{ "pid":12345, "tid":1, "ts":1688050817821278, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688050817821283, "dur":1586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/level3" }}
-,{ "pid":12345, "tid":1, "ts":1688050817822895, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/level2" }}
-,{ "pid":12345, "tid":1, "ts":1688050817822913, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688050817822919, "dur":3440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/level2" }}
-,{ "pid":12345, "tid":1, "ts":1688050817826379, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":1, "ts":1688050817826397, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1688050817826402, "dur":2217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":1, "ts":1688050817828632, "dur":54527, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688050817265173, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688050817265174, "dur":3941, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688050817269116, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1688050817269270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688050817271896, "dur":2760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1688050817274710, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1688050817274811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688050817275512, "dur":908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1688050817276469, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1688050817276570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688050817276596, "dur":1108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1688050817277757, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":2, "ts":1688050817277842, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688050817277848, "dur":5556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":2, "ts":1688050817283469, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project.exe" }}
-,{ "pid":12345, "tid":2, "ts":1688050817283494, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688050817283505, "dur":1011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project.exe" }}
-,{ "pid":12345, "tid":2, "ts":1688050817284532, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":2, "ts":1688050817284660, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688050817284860, "dur":53368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":2, "ts":1688050817338280, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688050817338300, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688050817338307, "dur":3294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688050817341614, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688050817341631, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688050817341637, "dur":8705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688050817350359, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688050817350382, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688050817350388, "dur":1874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688050817352279, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688050817352304, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688050817352313, "dur":2656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688050817354982, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688050817354998, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688050817355004, "dur":2091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688050817357109, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688050817357125, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688050817357130, "dur":2413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688050817359560, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688050817359582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688050817359608, "dur":1438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688050817361060, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688050817361078, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688050817361085, "dur":3819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688050817364918, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688050817364936, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688050817364941, "dur":3410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688050817368366, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688050817368381, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688050817368387, "dur":5049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688050817373451, "dur":187443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688050817560898, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688050817560907, "dur":79617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688050817640541, "dur":35795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688050817676339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688050817676347, "dur":1740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688050817678103, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688050817678120, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688050817678127, "dur":1674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688050817679815, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688050817679831, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688050817679837, "dur":1101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688050817680953, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688050817680969, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688050817680974, "dur":1023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688050817682013, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688050817682035, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688050817682040, "dur":811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688050817682865, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688050817682882, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688050817682888, "dur":1230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688050817684133, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688050817684152, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688050817684158, "dur":3740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688050817687911, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688050817687926, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688050817687932, "dur":35721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688050817723668, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688050817723687, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688050817723693, "dur":2235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688050817725943, "dur":153812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Cinemachine.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688050817879759, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1688050817879769, "dur":3358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Cinemachine.dll" }}
-,{ "pid":12345, "tid":2, "ts":1688050817883143, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":2, "ts":1688050817883144, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1688050817265400, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1688050817265400, "dur":3682, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1688050817269082, "dur":5016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":3, "ts":1688050817274102, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1688050817274520, "dur":1128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":3, "ts":1688050817275693, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1688050817275797, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1688050817276393, "dur":1085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1688050817277524, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":3, "ts":1688050817277611, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1688050817277617, "dur":4186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":3, "ts":1688050817281848, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":3, "ts":1688050817281940, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1688050817281944, "dur":95239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":3, "ts":1688050817377242, "dur":23298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":3, "ts":1688050817400545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1688050817400554, "dur":1173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":3, "ts":1688050817401740, "dur":616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":3, "ts":1688050817402359, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1688050817402367, "dur":787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":3, "ts":1688050817403167, "dur":58117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":3, "ts":1688050817461289, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1688050817461298, "dur":944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":3, "ts":1688050817462256, "dur":783, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":3, "ts":1688050817463043, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1688050817463053, "dur":846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":3, "ts":1688050817463912, "dur":23427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1688050817487363, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1688050817487373, "dur":157901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1688050817645289, "dur":208227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.ProBuilder.dll" }}
-,{ "pid":12345, "tid":3, "ts":1688050817853524, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1688050817853534, "dur":940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.ProBuilder.dll" }}
-,{ "pid":12345, "tid":3, "ts":1688050817854488, "dur":28673, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688050817264794, "dur":98, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688050817264894, "dur":4161, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688050817269063, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":4, "ts":1688050817269065, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688050817269090, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/app.info" }}
-,{ "pid":12345, "tid":4, "ts":1688050817269094, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688050817269626, "dur":2849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/app.info" }}
-,{ "pid":12345, "tid":4, "ts":1688050817272479, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1688050817272595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688050817272626, "dur":2510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1688050817275183, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1688050817275281, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688050817275322, "dur":1764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1688050817277139, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1688050817277230, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688050817277238, "dur":4185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1688050817281476, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817281580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688050817282034, "dur":7372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817289537, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817289570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688050817290299, "dur":702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817291014, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817291032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688050817291049, "dur":714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817291778, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817291794, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688050817291801, "dur":678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817292492, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817292509, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688050817292563, "dur":900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817293477, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817293493, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688050817293499, "dur":999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817294510, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817294530, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688050817294536, "dur":790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817295340, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817295386, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688050817295413, "dur":1033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817296461, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817296483, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688050817296489, "dur":1004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817297511, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817297533, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688050817297538, "dur":1046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817298598, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817298618, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688050817298624, "dur":822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817299459, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817299478, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688050817299484, "dur":17273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817316772, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817316789, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688050817316795, "dur":1079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817317899, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817317915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688050817317921, "dur":1442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817319387, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817319413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688050817319419, "dur":1150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817320583, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817320600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688050817320606, "dur":1176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817321797, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817321820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688050817321829, "dur":2047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817323896, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817323920, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688050817323927, "dur":11456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817335408, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817335429, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688050817335437, "dur":6143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817341594, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817341612, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688050817341617, "dur":8700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817350336, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817350360, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688050817350387, "dur":1911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817352314, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817352337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688050817352343, "dur":2836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817355194, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817355210, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688050817355215, "dur":1981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817357212, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817357233, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688050817357238, "dur":2313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817359565, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817359584, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688050817359811, "dur":4863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817364687, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817364711, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688050817364717, "dur":3394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817368129, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817368147, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688050817368155, "dur":3334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817371502, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817371517, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688050817371523, "dur":1992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817373528, "dur":966, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817374499, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688050817374510, "dur":1185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817375709, "dur":104372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817480085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688050817480093, "dur":154220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817634327, "dur":24829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817659158, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688050817659229, "dur":1484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817660727, "dur":161295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817822025, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688050817822032, "dur":1444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
-,{ "pid":12345, "tid":4, "ts":1688050817823502, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/level1" }}
-,{ "pid":12345, "tid":4, "ts":1688050817823522, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688050817823527, "dur":4088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/level1" }}
-,{ "pid":12345, "tid":4, "ts":1688050817827631, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/boot.config" }}
-,{ "pid":12345, "tid":4, "ts":1688050817827784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1688050817827791, "dur":1184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/boot.config" }}
-,{ "pid":12345, "tid":4, "ts":1688050817828988, "dur":54170, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688050817265053, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688050817265054, "dur":4062, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688050817269117, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1688050817269257, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688050817271731, "dur":2972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1688050817274756, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1688050817274940, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688050817276594, "dur":17634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1688050817294281, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817294301, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688050817294307, "dur":738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817295058, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817295074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688050817295080, "dur":1300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817296394, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817296415, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688050817296422, "dur":1045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817297482, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817297501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688050817297508, "dur":990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817298515, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817298534, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688050817298561, "dur":792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817299366, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817299383, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688050817299389, "dur":17216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817316623, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817316646, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688050817316673, "dur":2100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817318797, "dur":120978, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817439779, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688050817439788, "dur":1365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817441170, "dur":32289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817473464, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688050817473476, "dur":946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817474438, "dur":19768, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817494211, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688050817494224, "dur":140171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817634408, "dur":39591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.ProBuilder.Stl.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817674004, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688050817674013, "dur":1360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.ProBuilder.Stl.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817675389, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817675405, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688050817675412, "dur":1055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817676480, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817676496, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688050817676501, "dur":1765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817678282, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817678299, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688050817678305, "dur":1718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817680036, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817680051, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688050817680057, "dur":1000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817681069, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817681085, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688050817681090, "dur":956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817682059, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817682074, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688050817682079, "dur":891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817682983, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817682997, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688050817683002, "dur":1139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817684155, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817684186, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688050817684192, "dur":3376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817687584, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817687604, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688050817687611, "dur":33888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817721513, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817721531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688050817721539, "dur":2652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817724204, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817724221, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688050817724227, "dur":1706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817725947, "dur":67214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817793166, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688050817793176, "dur":18319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":5, "ts":1688050817811509, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1688050817811540, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688050817811546, "dur":9556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1688050817821118, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/level3.resS" }}
-,{ "pid":12345, "tid":5, "ts":1688050817821138, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688050817821144, "dur":826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/level3.resS" }}
-,{ "pid":12345, "tid":5, "ts":1688050817821986, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/level2.resS" }}
-,{ "pid":12345, "tid":5, "ts":1688050817822002, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688050817822026, "dur":847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/level2.resS" }}
-,{ "pid":12345, "tid":5, "ts":1688050817822900, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/level1.resS" }}
-,{ "pid":12345, "tid":5, "ts":1688050817822917, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688050817822921, "dur":3354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/level1.resS" }}
-,{ "pid":12345, "tid":5, "ts":1688050817826291, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/level0" }}
-,{ "pid":12345, "tid":5, "ts":1688050817826306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1688050817826312, "dur":1839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/level0" }}
-,{ "pid":12345, "tid":5, "ts":1688050817828166, "dur":55002, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688050817264931, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688050817264931, "dur":4187, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688050817269119, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1688050817269266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688050817271723, "dur":3078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1688050817274849, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1688050817275002, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688050817275548, "dur":1889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1688050817277490, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":6, "ts":1688050817277586, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688050817277592, "dur":4539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":6, "ts":1688050817282178, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":6, "ts":1688050817282260, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688050817282265, "dur":25895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":6, "ts":1688050817308217, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688050817308239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688050817308251, "dur":9313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688050817317579, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688050817317601, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688050817317608, "dur":1644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688050817319270, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688050817319286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688050817319295, "dur":1234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688050817320546, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688050817320565, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688050817320573, "dur":971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688050817321560, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688050817321578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688050817321903, "dur":2268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688050817324185, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688050817324202, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688050817324208, "dur":11355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688050817335577, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688050817335592, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688050817335597, "dur":5821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688050817341438, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688050817341471, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688050817341482, "dur":9246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688050817350743, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688050817350759, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688050817350764, "dur":2116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688050817352895, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688050817352911, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688050817352916, "dur":2438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688050817355367, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688050817355383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688050817355389, "dur":1982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688050817357384, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688050817357409, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688050817357415, "dur":2315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688050817359746, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688050817359762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688050817359768, "dur":3636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688050817363424, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688050817363443, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688050817363451, "dur":4743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688050817368210, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688050817368228, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688050817368348, "dur":2890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688050817371253, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688050817371269, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688050817371276, "dur":24106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688050817395399, "dur":79444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688050817474846, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688050817474856, "dur":159196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688050817634068, "dur":25035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688050817659109, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688050817659119, "dur":1482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688050817660616, "dur":36416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.ProBuilder.Csg.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688050817697037, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688050817697046, "dur":28391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.ProBuilder.Csg.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688050817725453, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688050817725468, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688050817725474, "dur":1034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":6, "ts":1688050817726525, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":6, "ts":1688050817726693, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688050817727018, "dur":805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":6, "ts":1688050817727840, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":6, "ts":1688050817727855, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688050817727876, "dur":1170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":6, "ts":1688050817729061, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":6, "ts":1688050817729077, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688050817729082, "dur":1072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":6, "ts":1688050817730172, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets2.resource" }}
-,{ "pid":12345, "tid":6, "ts":1688050817730214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688050817730222, "dur":1209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets2.resource" }}
-,{ "pid":12345, "tid":6, "ts":1688050817731446, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1688050817731461, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688050817731468, "dur":17777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1688050817749261, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":6, "ts":1688050817749279, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688050817749286, "dur":757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":6, "ts":1688050817750057, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":6, "ts":1688050817750071, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688050817750076, "dur":61362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":6, "ts":1688050817811455, "dur":5829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":6, "ts":1688050817817289, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688050817817298, "dur":6240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":6, "ts":1688050817823553, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/level0.resS" }}
-,{ "pid":12345, "tid":6, "ts":1688050817823568, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688050817823573, "dur":3284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/level0.resS" }}
-,{ "pid":12345, "tid":6, "ts":1688050817826873, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":6, "ts":1688050817826889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1688050817826895, "dur":1656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":6, "ts":1688050817828567, "dur":54590, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1688050817963819, "dur":9295, "ph":"X", "name": "ProfilerWriteOutput" }
-,{ "pid": 0, "tid": 1, "ts": 1688050818006867, "dur": 1597, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1688050818006057, "dur": 2457, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+,{ "pid":12345, "tid":0, "ts":1688153617274217, "dur":1235, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688153617275464, "dur":194, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1688153617275708, "dur":24, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1688153617275732, "dur":200, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1688153617275951, "dur":651, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688153617276602, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688153617593692, "dur":93, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688153617593785, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688153617593797, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688153617593799, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688153617593806, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688153617593808, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688153617593814, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688153617593816, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688153617593821, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688153617593823, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688153617593829, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688153617593831, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688153617593836, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688153617593850, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688153617593873, "dur":1627, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1688153617276421, "dur":189, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688153617276612, "dur":4882, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688153617281505, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1688153617281508, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688153617281536, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1688153617281538, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688153617281553, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1688153617281610, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688153617281626, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1688153617281685, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688153617281705, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1688153617281756, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688153617281771, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1688153617281864, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688153617281884, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1688153617281977, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688153617281997, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1688153617282042, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688153617282057, "dur":743, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1688153617282800, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688153617282874, "dur":27358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688153617310233, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688153617310267, "dur":4385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688153617314653, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688153617314687, "dur":48566, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688153617363254, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688153617363287, "dur":230286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688153617593574, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688153617593601, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1688153617593601, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688153617276639, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688153617276639, "dur":5159, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688153617281799, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1688153617281855, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688153617281869, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1688153617281913, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688153617281927, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1688153617281977, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688153617281989, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1688153617282031, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688153617282050, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688153617282093, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688153617282149, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688153617282163, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688153617282174, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688153617282188, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688153617282201, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688153617282240, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688153617282258, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688153617282276, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688153617282288, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688153617282316, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688153617282332, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688153617282346, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688153617282356, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688153617282370, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688153617282380, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688153617282395, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688153617282406, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688153617282419, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688153617282430, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688153617282442, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688153617282453, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688153617282468, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688153617282480, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688153617282492, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688153617282522, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688153617282541, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688153617282555, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688153617282570, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688153617282581, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688153617282597, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688153617282608, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688153617282794, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688153617282807, "dur":40990, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688153617323798, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688153617323831, "dur":661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688153617324492, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688153617324516, "dur":587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688153617325103, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688153617325126, "dur":22705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688153617347832, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688153617347858, "dur":31388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688153617379246, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688153617379281, "dur":177022, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688153617556304, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688153617556338, "dur":37321, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688153617276501, "dur":114, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688153617276615, "dur":5484, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688153617282099, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1688153617282260, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688153617282274, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688153617282295, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688153617282307, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688153617282322, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688153617282336, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688153617282349, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688153617282363, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688153617282379, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688153617282390, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688153617282402, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688153617282417, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688153617282428, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688153617282439, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688153617282453, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688153617282465, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688153617282478, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688153617282489, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688153617282502, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688153617282512, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688153617282524, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688153617282539, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688153617282554, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688153617282564, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688153617282575, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688153617282586, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688153617282599, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688153617282675, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688153617282693, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688153617282705, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688153617282717, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688153617282727, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688153617282738, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688153617282750, "dur":172714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688153617455465, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688153617455512, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1688153617455541, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688153617455564, "dur":10480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1688153617466060, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1688153617466216, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688153617466233, "dur":736, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1688153617466970, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688153617466996, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1688153617467016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688153617467023, "dur":736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1688153617467775, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1688153617467792, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688153617467802, "dur":658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1688153617468475, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1688153617468491, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688153617468495, "dur":1419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1688153617469928, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1688153617469943, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688153617469949, "dur":1081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1688153617471043, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1688153617471058, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688153617471063, "dur":720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1688153617471797, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1688153617471828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688153617471833, "dur":920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1688153617472769, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1688153617472940, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688153617472955, "dur":120730, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688153617276557, "dur":64, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688153617276621, "dur":5397, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688153617282019, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688153617282122, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688153617282139, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688153617282157, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688153617282173, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688153617282188, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688153617282200, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688153617282272, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688153617282284, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688153617282298, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688153617282310, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688153617282323, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688153617282335, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688153617282349, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688153617282362, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688153617282377, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688153617282388, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688153617282401, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688153617282412, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688153617282424, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688153617282435, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688153617282447, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688153617282459, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688153617282472, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688153617282483, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688153617282497, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688153617282508, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688153617282521, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688153617282534, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688153617282546, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688153617282557, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688153617282569, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688153617282581, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688153617282598, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688153617282668, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688153617282686, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688153617282697, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688153617282709, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688153617282720, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688153617282731, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688153617282742, "dur":64020, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688153617346762, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688153617346795, "dur":1370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688153617348166, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688153617348187, "dur":56255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688153617404442, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688153617404473, "dur":81345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688153617485819, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688153617485851, "dur":107788, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617276758, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617276758, "dur":5081, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617281839, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1688153617281880, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617281893, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1688153617281940, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617281952, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1688153617281992, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617282006, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688153617282064, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617282078, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project.exe" }}
+,{ "pid":12345, "tid":5, "ts":1688153617282094, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617282133, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688153617282151, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617282164, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688153617282178, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617282190, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688153617282206, "dur":297, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617282503, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688153617282523, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617282540, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688153617282558, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617282570, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688153617282583, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617282598, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688153617282673, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617282687, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688153617282699, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617282712, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688153617282724, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617282735, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688153617282747, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617282758, "dur":12890, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688153617295648, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617295684, "dur":32691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688153617328375, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617328408, "dur":972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688153617329380, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617329406, "dur":20946, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688153617350353, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617350383, "dur":21208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688153617371591, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617371625, "dur":33176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688153617404801, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617404826, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1688153617404974, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617404991, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1688153617405014, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617405405, "dur":2313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1688153617407736, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":5, "ts":1688153617407753, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617407760, "dur":889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":5, "ts":1688153617408662, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":5, "ts":1688153617408678, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617408684, "dur":655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":5, "ts":1688153617409353, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1688153617409367, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617409372, "dur":4758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1688153617414146, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":5, "ts":1688153617414163, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617414172, "dur":647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":5, "ts":1688153617414832, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":5, "ts":1688153617414847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617414852, "dur":666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":5, "ts":1688153617415532, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1688153617415548, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617415553, "dur":17967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1688153617433535, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1688153617433568, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617433574, "dur":714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1688153617434301, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":5, "ts":1688153617434318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617434324, "dur":1793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":5, "ts":1688153617436135, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1688153617436153, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617436159, "dur":5825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1688153617442000, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1688153617442018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617442025, "dur":1006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1688153617443047, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1688153617443065, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617443071, "dur":803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1688153617443889, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1688153617443905, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617443911, "dur":22522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1688153617466448, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1688153617466468, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617466474, "dur":1196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1688153617467684, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/level4.resS" }}
+,{ "pid":12345, "tid":5, "ts":1688153617467701, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617467706, "dur":746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/level4.resS" }}
+,{ "pid":12345, "tid":5, "ts":1688153617468466, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/level3.resS" }}
+,{ "pid":12345, "tid":5, "ts":1688153617468481, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617468486, "dur":780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/level3.resS" }}
+,{ "pid":12345, "tid":5, "ts":1688153617469280, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/level2.resS" }}
+,{ "pid":12345, "tid":5, "ts":1688153617469296, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617469302, "dur":739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/level2.resS" }}
+,{ "pid":12345, "tid":5, "ts":1688153617470058, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/level1.resS" }}
+,{ "pid":12345, "tid":5, "ts":1688153617470073, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617470082, "dur":706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/level1.resS" }}
+,{ "pid":12345, "tid":5, "ts":1688153617470800, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1688153617470820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617470826, "dur":1000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1688153617471840, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1688153617471858, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617471862, "dur":725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1688153617472602, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1688153617472618, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688153617472623, "dur":620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1688153617473255, "dur":120366, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688153617276807, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688153617276807, "dur":4690, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688153617281505, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1688153617281603, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688153617281624, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1688153617281677, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688153617281693, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1688153617281737, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688153617281749, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1688153617281793, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688153617281806, "dur":323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1688153617282129, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688153617282144, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688153617282157, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688153617282173, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688153617282186, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688153617282200, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688153617282217, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688153617282228, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688153617282242, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688153617282252, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688153617282266, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688153617282277, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688153617282290, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688153617282305, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688153617282317, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688153617282331, "dur":102036, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384367, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384397, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384412, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384424, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384437, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384448, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384460, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384469, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384482, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384491, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384501, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384510, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384521, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384530, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384539, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384548, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384558, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384566, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384584, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384593, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384604, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384613, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384623, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384634, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384644, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384652, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384663, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384673, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384683, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384692, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384703, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384711, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384721, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384730, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384740, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384749, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384760, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384769, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384779, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384788, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384798, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384808, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384818, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384829, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384840, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688153617384849, "dur":139868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Carpetas/Da vinci/Programacion/Proyecto/SplinterShell/Splinter Shell Build/My project_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688153617524717, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688153617524750, "dur":68908, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688153617596947, "dur":1431, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1688153617625483, "dur": 617, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1688153617625416, "dur": 708, "ph": "X", "name": "Write chrome-trace events", "args": {} },

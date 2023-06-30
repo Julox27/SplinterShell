@@ -17,6 +17,10 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Nivel 1");
     }
+    public void MenuButton()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
 
     public void ExitButton()
     {

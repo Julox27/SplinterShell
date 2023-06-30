@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
     public Caparazon inWorldCaparazon;
     public Player player;
 
-    int slideCount = 0;
+    static int slideCount = 0;
     [HideInInspector] public int shootCount = 0;
 
     private void Awake()
@@ -59,7 +59,7 @@ public class GameManager : MonoBehaviour
         // Aplica la rotación al jugador
         GameManager.instance.player.transform.rotation = rotacionJugador;
 
-        if (slideCount == 2 && shootCount >= 2)
+        if (slideCount == 4 && shootCount >= 3)
         {
             achievementManager.ShowAchievement();
         }
