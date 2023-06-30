@@ -103,6 +103,7 @@ public class Player : MonoBehaviour
         Vector3 direccion = new Vector3(gameObject.transform.forward.x, 0.2f, gameObject.transform.forward.z).normalized;
         rbProyectil.AddForce(direccion * fuerzaLanzamiento, ForceMode.Impulse);
         yaLanzoProyectil = true;
+        GameManager.instance.shootCount++;
     }
 
     private void Slide()

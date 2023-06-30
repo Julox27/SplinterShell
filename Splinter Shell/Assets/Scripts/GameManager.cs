@@ -6,10 +6,14 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     [HideInInspector] public static GameManager instance;
+    public AchievementManager achievementManager;
     public int vidaPlayer;
     public bool Deslizandose;
     public Caparazon inWorldCaparazon;
     public Player player;
+
+    int slideCount = 0;
+    [HideInInspector] public int shootCount = 0;
 
     private void Awake()
     {
@@ -37,7 +41,7 @@ public class GameManager : MonoBehaviour
 
     public void StopSlide()
     {
-
+        slideCount++;
         Deslizandose = false;
         player.transform.position = inWorldCaparazon.transform.position;
         Destroy(inWorldCaparazon.gameObject);
@@ -55,7 +59,10 @@ public class GameManager : MonoBehaviour
         // Aplica la rotación al jugador
         GameManager.instance.player.transform.rotation = rotacionJugador;
 
-
+        if (slideCount == 2 && shootCount >= 2)
+        {
+            achievementManager.ShowAchievement();
+        }
     }
 
 
